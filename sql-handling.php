@@ -2,6 +2,7 @@
 
 use Bitrix\Main\Diag\Debug;
 use Bitrix\Main\Loader;
+use Bitrix\Main\Application;
 
 require $_SERVER['DOCUMENT_ROOT'] . '/bitrix/header.php';
 /**
@@ -12,16 +13,18 @@ $APPLICATION->setTitle('Отладка SQL');
 
 Loader::includeModule('iblock');
 
-\Bitrix\Main\Application::getConnection()->setTracker();
-$queryResult = \Bitrix\Iblock\ElementTable::getList([
-    'filter' => [
-        'IBLOCK_ID' => 3,
+\Bitrix\Main\Application::getConnection()->startTracker();
+$query = \Bitrix\Iblock\ElementTable::getList([
+    'filter'=> [
+        'IBLOCK_ID' => 1,
     ],
     'select' => [
         'ID'
     ],
 ]);
-\Bitrix\Main\Application::getConnection()->stopTracker();
-Debug::dump($queryResult->getTrackerQuery()->getSql());
+
+
+    \Bitrix\Main\Application::getConnection()->stopTracker();
+Debug::dump($query->getTrackerQuery()->getSql());
 
 require $_SERVER['DOCUMENT_ROOT'] . '/bitrix/footer.php';
