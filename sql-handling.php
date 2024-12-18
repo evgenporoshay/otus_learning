@@ -24,7 +24,7 @@ $query = \Bitrix\Iblock\ElementTable::getList([
 ]);
 
 
-    \Bitrix\Main\Application::getConnection()->stopTracker();
+Application::getConnection()->stopTracker();
 Debug::dump($query->getTrackerQuery()->getSql());
 
 require $_SERVER['DOCUMENT_ROOT'] . '/bitrix/footer.php';
