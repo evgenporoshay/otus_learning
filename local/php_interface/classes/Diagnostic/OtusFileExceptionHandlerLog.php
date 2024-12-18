@@ -3,10 +3,15 @@
 namespace classes\Diagnostic;
 use Bitrix\Main\Diag\ExceptionHandlerFormatter;
 use Bitrix\Main\Diag\FileExceptionHandlerLog;
-
+use Bitrix\Main\Diag;
 class OtusFileExceptionHandlerLog extends FileExceptionHandlerLog
 {
-public function write($exception, $logType)
+    /**
+     * @param $exception
+     * @param $logType
+     * @return void
+     */
+    public function write($exception, $logType)
 {
     $text = ExceptionHandlerFormatter::format($exception);
 
@@ -18,7 +23,7 @@ public function write($exception, $logType)
     $message = "{date} - Host: {host} - {type} - {$text}\n";
     $lines = explode("\n", $message);
 
-    foreach ($lines as &line) {
+    foreach ($lines as &$line) {
         $line = 'OTUS - ' . $line;
 }
 

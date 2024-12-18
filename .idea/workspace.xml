@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a79ca264-7456-4f09-b5df-8f39fdb8bc22" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/local/php_interface/classes/Diagnostic/OtusFileExceptionHandlerLog.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/otus_debug.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/php_interface/classes/Diagnostic/OtusFileExceptionHandlerLog.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/php_interface/classes/Diagnostic/OtusFileExceptionHandlerLog.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +32,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JavaScript Debug.OtusFileExceptionHandlerLog.php.executor": "Run",
     "JavaScript Debug.readme.php.executor": "Run",
     "PHP Script.otus_debug.php.executor": "Run",
     "PHP Script.readme.php.executor": "Run",
@@ -67,7 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1734501281438</updated>
       <workItem from="1734501283217" duration="50000" />
-      <workItem from="1734501362892" duration="8613000" />
+      <workItem from="1734501362892" duration="10491000" />
     </task>
     <servers />
   </component>
