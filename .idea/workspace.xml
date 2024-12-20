@@ -19,6 +19,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/local/php_interface/classes/Diagnostic/OtusFileExceptionHandlerLog.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\php-8.1.31\php.exe" />
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -67,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1734501281438</updated>
       <workItem from="1734501283217" duration="50000" />
-      <workItem from="1734501362892" duration="10491000" />
+      <workItem from="1734501362892" duration="12793000" />
     </task>
     <servers />
   </component>

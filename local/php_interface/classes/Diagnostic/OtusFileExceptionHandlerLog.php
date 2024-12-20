@@ -3,14 +3,9 @@
 namespace classes\Diagnostic;
 use Bitrix\Main\Diag\ExceptionHandlerFormatter;
 use Bitrix\Main\Diag\FileExceptionHandlerLog;
-use Bitrix\Main\Diag;
 class OtusFileExceptionHandlerLog extends FileExceptionHandlerLog
 {
-    /**
-     * @param $exception
-     * @param $logType
-     * @return void
-     */
+
     public function write($exception, $logType)
 {
     $text = ExceptionHandlerFormatter::format($exception);
