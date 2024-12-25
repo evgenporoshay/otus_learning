@@ -23,7 +23,6 @@ $query = \Bitrix\Iblock\ElementTable::getList([
     ],
 ]);
 
-
 Application::getConnection()->stopTracker();
 Debug::dump($query->getTrackerQuery()->getSql());
 
