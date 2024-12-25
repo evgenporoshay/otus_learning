@@ -23,6 +23,6 @@ class OtusFileExceptionHandlerLog extends FileExceptionHandlerLog
 }
 
     $message = implode("\n", $lines);
-    $this->logger->log($logLevel,$message,$context);
+    $this->logger->log($logLevel, $message, $context);
 }
 }

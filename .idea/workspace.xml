@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a79ca264-7456-4f09-b5df-8f39fdb8bc22" name="Changes" comment="" />
+    <list default="true" id="a79ca264-7456-4f09-b5df-8f39fdb8bc22" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/.settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/.settings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/php_interface/classes/Diagnostic/OtusFileExceptionHandlerLog.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/php_interface/classes/Diagnostic/OtusFileExceptionHandlerLog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/otus_debug.php" beforeDir="false" afterPath="$PROJECT_DIR$/logs/otus_debug.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,27 +35,29 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JavaScript Debug.OtusFileExceptionHandlerLog.php.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.readme.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP Script.otus_debug.php.executor&quot;: &quot;Run&quot;,
-    &quot;PHP Script.readme.php.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.highlight.mappings&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.highlight.symlinks&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.show.date&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.show.permissions&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.show.size&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.OtusFileExceptionHandlerLog.php.executor": "Run",
+    "JavaScript Debug.readme.php.executor": "Run",
+    "JavaScript Debug.sql-handling.php.executor": "Run",
+    "PHP Script.otus_debug.php.executor": "Run",
+    "PHP Script.readme.php.executor": "Run",
+    "PHP Script.sql-handling.php.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
+    "WebServerToolWindowPanel.toolwindow.show.date": "false",
+    "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
+    "WebServerToolWindowPanel.toolwindow.show.size": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -68,7 +75,7 @@
       <updated>1734501281438</updated>
       <workItem from="1734501283217" duration="50000" />
       <workItem from="1734501362892" duration="14533000" />
-      <workItem from="1735149238447" duration="605000" />
+      <workItem from="1735149238447" duration="3963000" />
     </task>
     <servers />
   </component>

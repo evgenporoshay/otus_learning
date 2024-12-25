@@ -21,13 +21,16 @@ return array (
   array (
     'value' => 
     array (
-      'debug' => false,
-      'handled_errors_types' => 4437,
-      'exception_errors_types' => 4437,
+      'debug' => true,
+      'handled_errors_types' => E_ALL,
+      'exception_errors_types' => E_ALL,
       'ignore_silence' => false,
       'assertion_throws_exception' => true,
       'assertion_error_type' => 256,
-      'log' => NULL,
+      'log' => array(
+          'file' => 'logs/'.date('d-m-Y').'.log',
+          'log_size' => 1000000,
+      ),
     ),
     'readonly' => false,
   ),
