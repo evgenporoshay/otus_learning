@@ -1,15 +1,15 @@
 <?php
 
 namespace classes\Diagnostic;
-use Bitrix\Main\Diag\ExceptionHandlerFormatter;
 use Bitrix\Main\Diag\FileExceptionHandlerLog;
+use Bitrix\Main\Diag\ExceptionHandlerFormatter;
+
 class OtusFileExceptionHandlerLog extends FileExceptionHandlerLog
 {
 
     public function write($exception, $logType)
 {
     $text = ExceptionHandlerFormatter::format($exception);
-
     $context = [
         'type' => static::logTypeToString($logType),
     ];
