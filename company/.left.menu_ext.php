@@ -15,19 +15,6 @@ Loc::loadMessages($_SERVER['DOCUMENT_ROOT'] . '/bitrix/modules/intranet/public/c
 $GLOBALS['APPLICATION']->setPageProperty('topMenuSectionDir', '/company/');
 $menuItems = [];
 
-if (ToolsManager::getInstance()->checkAvailabilityByMenuId('menu_company'))
-{
-	$menuItems[] = [
-		Loc::getMessage('COMPANY_MENU_STRUCTURE'),
-		SITE_DIR . 'company/vis_structure.php',
-		[],
-		[
-			'menu_item_id' => 'menu_company',
-		],
-		'',
-	];
-}
-
 if (ToolsManager::getInstance()->checkAvailabilityByMenuId('menu_employee'))
 {
 	$menuItems[] = [
@@ -36,6 +23,19 @@ if (ToolsManager::getInstance()->checkAvailabilityByMenuId('menu_employee'))
 		[],
 		[
 			'menu_item_id' => 'menu_employee',
+		],
+		'',
+	];
+}
+
+if (ToolsManager::getInstance()->checkAvailabilityByMenuId('menu_company'))
+{
+	$menuItems[] = [
+		Loc::getMessage('COMPANY_MENU_STRUCTURE'),
+		SITE_DIR . 'company/vis_structure.php',
+		[],
+		[
+			'menu_item_id' => 'menu_company',
 		],
 		'',
 	];
@@ -84,8 +84,8 @@ if (
 
 //merge with static items from left.menu
 $ignoreLinks = [
-	SITE_DIR . 'company/vis_structure.php',
 	SITE_DIR . 'company/',
+	SITE_DIR . 'company/vis_structure.php',
 	SITE_DIR . 'company/index.php',
 ];
 
