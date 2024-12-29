@@ -29,7 +29,7 @@ return array (
                     'assertion_error_type' => 256,
                     'log' =>
                         array (
-                            'file' => NULL,
+                            'file' => '/logs/'.date("Y-m-d").'.log',
                             'log_size' => 1000000,
                         ),
                 ),
