@@ -1,0 +1,8 @@
+<?php
+$MESS["INTRANET_ABSENCE_USER_DATE_RANGE"] = "dal #DATE_ABSENCE_START# al #DATE_ABSENCE_END#";
+$MESS["INTR_IAU_TPL_ALL_DAY"] = "tutto il giorno";
+$MESS["INTR_IAU_TPL_IN_NEXT_DAYS"] = "Prossimi giorni:";
+$MESS["INTR_IAU_TPL_NOT_FOUND"] = "Nessun'assenza trovata";
+$MESS["INTR_IAU_TPL_TODAY"] = "Oggi: #TIME_LIST#";
+$MESS["SONET_ABSENCE_USER_TITLE"] = "Assenza";
+$MESS["SONET_USER_ABSENCE"] = "Assenze";

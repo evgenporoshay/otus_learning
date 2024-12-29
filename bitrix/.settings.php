@@ -23,7 +23,7 @@ return array (
                 array (
                     'debug' => true,
                     'handled_errors_types' => E_ALL & E_NOTICE & E_WARNING & E_DEPRECATED,
-                    'exception_errors_types' => 4437,
+                    'exception_errors_types' => E_ALL,
                     'ignore_silence' => false,
                     'assertion_throws_exception' => true,
                     'assertion_error_type' => 256,

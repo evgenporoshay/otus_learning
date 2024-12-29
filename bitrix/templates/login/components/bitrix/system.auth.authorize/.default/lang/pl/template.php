@@ -1,0 +1,20 @@
+<?php
+$MESS["AUTH_1_SOCSERV"] = "Zaloguj z użyciem";
+$MESS["AUTH_2_FORM"] = "lub wprowadź swój login i hasło:";
+$MESS["AUTH_AUTHORIZE"] = "Zaloguj";
+$MESS["AUTH_AUTHORIZE_BY_QR"] = "Zaloguj się za pomocą kodu QR";
+$MESS["AUTH_AUTHORIZE_BY_QR_INFO_1"] = "Zaloguj się za pomocą kodu QR";
+$MESS["AUTH_AUTHORIZE_BY_QR_INFO_2"] = "Zeskanuj za pomocą aplikacji mobilnej Bitrix24 lub użyj aparatu smartfona";
+$MESS["AUTH_BACK"] = "Wstecz";
+$MESS["AUTH_CAPTCHA_PROMT"] = "Wprowadź tekst z obrazu";
+$MESS["AUTH_FIRST_ONE"] = "Jeżeli jesteś po raz pierwszy na stronie, proszę wypełnić formularz rejestracyjny.";
+$MESS["AUTH_FORGOT_PASSWORD_2"] = "Zapomniałeś hasła?";
+$MESS["AUTH_LOGIN"] = "Login";
+$MESS["AUTH_NONSECURE_NOTE"] = "Hasło zostanie wysłane w otwartym formularzu. Włącz JavaScript w swojej przeglądarce internetowej, aby włączyć syfrowanie.";
+$MESS["AUTH_PASSWORD"] = "Hasło";
+$MESS["AUTH_PLEASE_AUTH"] = "Proszę autoryzować:";
+$MESS["AUTH_REGISTER"] = "Rejestracja";
+$MESS["AUTH_REMEMBER_ME"] = "Zapamiętaj mnie na tym komputerze";
+$MESS["AUTH_SECURE_NOTE"] = "Hasło zostanie zaszyfrowane przed wysłaniem. Ma to zapobiec pojawianiu się hasła w otwartym formularzu przez kanały transmisji danych.";
+$MESS["AUTH_SOCSERV"] = "Zapisz się używając serwisów społecznościowych:";
+$MESS["AUTH_TITLE"] = "Witamy!";

@@ -3,7 +3,7 @@
 $dateTime = date('Y-m-d H:i:s');
 
 // Имя файла для записи данных
-$fileName = 'log.txt';
+$fileName = 'exceptions.log';
 
 // Открываем файл для записи в конец
 $handle = fopen($fileName, 'a') or die("Не удалось открыть файл!");
@@ -21,4 +21,6 @@ fclose($handle);
 
 // Возвращаем ответ клиенту
 header('Content-Type: text/plain');
+
+
 echo "Текущая дата и время успешно записаны в файл $fileName.";

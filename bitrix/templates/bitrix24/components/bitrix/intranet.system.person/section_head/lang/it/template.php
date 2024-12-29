@@ -1,0 +1,29 @@
+<?
+$MESS["INTR_CONFIRM_DELETE"] = "L'invito sarà eliminato definitivamente.\\n\\nEliminare il dipendente?";
+$MESS["INTR_CONFIRM_FIRE"] = "Il dipendente non potrà accedere al portale e non sarà mostrato nella struttura azienda. Tuttavia, tutti i suoi dati personali (file, messaggi, incarichi e così via) rimarranno intatti.\\n\\nnNegare l'accesso a questo dipendente?";
+$MESS["INTR_CONFIRM_RESTORE"] = "Il dipendente potrà accedere al portale e sarà mostrato nella struttura azienda.\\n\\nConsentire l'accesso a questo dipendente?";
+$MESS["INTR_EXTRANET"] = "(extranet)";
+$MESS["INTR_ISP_DEACTIVATE_USER"] = "Nega accesso";
+$MESS["INTR_ISP_DELETE_ERROR"] = "Errore! L'utente non è stato eliminato.";
+$MESS["INTR_ISP_DELETE_USER"] = "Elimina";
+$MESS["INTR_ISP_EDIT_USER"] = "Modifica";
+$MESS["INTR_ISP_INVITE"] = "Invita di nuovo";
+$MESS["INTR_ISP_INVITE_ACCESS"] = "L'invito è stato inviato";
+$MESS["INTR_ISP_IS_ABSENT"] = "Fuori dall'ufficio";
+$MESS["INTR_ISP_IS_ONLINE"] = "Online";
+$MESS["INTR_ISP_PM"] = "Invia messaggio";
+$MESS["INTR_ISP_RESTORE_USER"] = "Consenti accesso";
+$MESS["INTR_ISP_TASK"] = "Aggiungi incarico";
+$MESS["INTR_ISP_VIDEO_CALL"] = "Videochiamata";
+$MESS["INTR_IS_ADMIN"] = "Amministratore";
+$MESS["INTR_IS_HEAD"] = "Supervisore";
+$MESS["INTR_STR_UF_HEAD"] = "Capo reparto";
+$MESS["INTR_USER_admin"] = "Amministratore";
+$MESS["INTR_USER_extranet"] = "Extranet";
+$MESS["INTR_USER_fired"] = "Licenziato";
+$MESS["INTR_USER_inactive"] = "Invitato";
+$MESS["ISL_PERSONAL_BIRTHDAY"] = "Data di nascita";
+$MESS["ISL_PERSONAL_EMAIL"] = "E-mail";
+$MESS["ISL_PERSONAL_PHONE"] = "Telefono";
+$MESS["ISL_PERSONAL_SKYPE"] = "Skype";
+?>
