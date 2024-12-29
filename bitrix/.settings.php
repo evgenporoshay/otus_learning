@@ -27,7 +27,17 @@ return array (
       'ignore_silence' => false,
       'assertion_throws_exception' => true,
       'assertion_error_type' => 256,
+<<<<<<< HEAD
         'log' => NULL),
+=======
+        'log' => array (
+            'settings' => array (
+                'file' => 'bitrix/modules/error.log',
+                'log_size' => 1000000,
+            ),
+
+    ),
+>>>>>>> 01aaed2bb1e8f50909d097eb541104c39a9274c4
     'readonly' => false,
   ),
   'connections' => 
