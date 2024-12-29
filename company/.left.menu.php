@@ -3,15 +3,15 @@ if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
 IncludeModuleLangFile($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/intranet/public/company/.left.menu.php");
 $aMenuLinks = Array(
 	Array(
-		GetMessage("COMPANY_MENU_STRUCTURE"),
-		SITE_DIR."company/vis_structure.php",
+		GetMessage("COMPANY_MENU_EMPLOYEES"),
+		SITE_DIR."company/index.php",
 		Array(),
 		Array(),
 		""
 	),
 	Array(
-		GetMessage("COMPANY_MENU_EMPLOYEES"),
-		SITE_DIR."company/index.php",
+		GetMessage("COMPANY_MENU_STRUCTURE"),
+		SITE_DIR."company/vis_structure.php",
 		Array(),
 		Array(),
 		""

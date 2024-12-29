@@ -22,4 +22,3 @@ fclose($handle);
 // Возвращаем ответ клиенту
 header('Content-Type: text/plain');
 echo "Текущая дата и время успешно записаны в файл $fileName.";
-?>
