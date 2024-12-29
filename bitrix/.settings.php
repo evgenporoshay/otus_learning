@@ -1,62 +1,62 @@
 <?php
-return array (
+return array(
     'cache_flags' =>
-        array (
+        array(
             'value' =>
-                array (
+                array(
                     'config_options' => 3600.0,
                 ),
             'readonly' => false,
         ),
     'cookies' =>
-        array (
+        array(
             'value' =>
-                array (
+                array(
                     'secure' => false,
                     'http_only' => true,
                 ),
             'readonly' => false,
         ),
-    'exception_handling' =>
-        array (
-            'value' =>
-                array (
-                    'debug' => true,
-                    'handled_errors_types' => 4437,
-                    'exception_errors_types' => 4437,
-                    'ignore_silence' => false,
-                    'assertion_throws_exception' => true,
-                    'assertion_error_type' => 256,
-                    'log' =>
-                        array (
-                            'file' => '/logs/'.date("Y-m-d").'.log',
-                            'log_size' => 1000000,
-                        ),
+    'exception_handling' => array (
+        'value' => array (
+            'debug' => true,
+            'handled_errors_types' => E_ALL & ~E_NOTICE & ~E_STRICT & ~E_USER_NOTICE,
+            'exception_errors_types' => E_ALL & ~E_NOTICE & ~E_WARNING & ~E_STRICT & ~E_USER_WARNING & ~E_USER_NOTICE & ~E_COMPILE_WARNING & ~E_DEPRECATED,
+            'ignore_silence' => false,
+            'assertion_throws_exception' => true,
+            'assertion_error_type' => 256,
+            'log' => array (
+                'settings' => array (
+                    'file' => 'logs/'.date('Y-m-d'). '.log',
+                    'log_size' => 1000000,
                 ),
-            'readonly' => false,
+            ),
         ),
+        'readonly' => false,
+    ),
     'connections' =>
-        array (
+        array(
             'value' =>
-                array (
+                array(
                     'default' =>
-                        array (
+                        array(
                             'host' => 'localhost',
                             'database' => 'cj66659_bitrix',
                             'login' => 'cj66659_bitrix',
                             'password' => 'Tuz72$tvola!',
-                            'options' => 2.0,
+                            'options' => 2,
                             'className' => '\\Bitrix\\Main\\DB\\MysqliConnection',
                         ),
                 ),
             'readonly' => true,
         ),
     'crypto' =>
-        array (
+        array(
             'value' =>
-                array (
+                array(
                     'crypto_key' => '9fc94a6806d2b4678839e10552375d5b',
                 ),
             'readonly' => true,
         ),
 );
+

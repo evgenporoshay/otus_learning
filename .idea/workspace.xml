@@ -5,8 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a79ca264-7456-4f09-b5df-8f39fdb8bc22" name="Changes" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/ex.php" beforeDir="false" afterPath="$PROJECT_DIR$/logs/ex.php" afterDir="false" />
+=======
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/.settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/.settings.php" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/logs/ex.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/exceptions.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> 9c0b1901a7781eacc7be756d8594837bc14e0082
+>>>>>>> 46f2bdcf366acd6c949b345b18bcbeb6702c786d
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +50,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+<<<<<<< HEAD
+=======
     "ASKED_ADD_EXTERNAL_FILES": "true",
+>>>>>>> 9c0b1901a7781eacc7be756d8594837bc14e0082
     "JavaScript Debug.OtusFileExceptionHandlerLog.php.executor": "Run",
     "JavaScript Debug.readme.php.executor": "Run",
     "JavaScript Debug.sql-handling.php.executor": "Run",
@@ -77,9 +92,17 @@
       <updated>1734501281438</updated>
       <workItem from="1734501283217" duration="50000" />
       <workItem from="1734501362892" duration="14533000" />
+<<<<<<< HEAD
+      <workItem from="1735149238447" duration="9883000" />
+=======
       <workItem from="1735149238447" duration="10270000" />
       <workItem from="1735470156433" duration="1043000" />
+<<<<<<< HEAD
       <workItem from="1735473698136" duration="13952000" />
+=======
+      <workItem from="1735473698136" duration="8731000" />
+>>>>>>> 9c0b1901a7781eacc7be756d8594837bc14e0082
+>>>>>>> 46f2bdcf366acd6c949b345b18bcbeb6702c786d
     </task>
     <servers />
   </component>
