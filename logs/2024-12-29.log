@@ -1,0 +1,2099 @@
+2024-12-29 19:58:11 - Host: cj66659.tw1.ru - LOW_PRIORITY_ERROR - [ErrorException] E_DEPRECATED
+str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (0)
+/home/c/cj66659/public_html/bitrix/modules/main/classes/general/util.php:51
+#0: str_replace(array, array, NULL)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/util.php:51
+#1: CUtil::JSEscape(NULL)
+	/home/c/cj66659/public_html/bitrix/modules/main/tools.php:3369
+#2: GetMessageJS(string)
+	/home/c/cj66659/public_html/bitrix/templates/bitrix24/components/bitrix/timeman/bitrix24/template.php:94
+#3: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#4: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#5: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:784
+#6: CBitrixComponent->showComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:724
+#7: CBitrixComponent->includeComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/timeman/component.php:25
+#8: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:615
+#9: CBitrixComponent->__includeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:692
+#10: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#11: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/c/cj66659/public_html/bitrix/templates/bitrix24/header.php:212
+#12: include_once(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/include/prolog_after.php:88
+#13: require(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/include/prolog.php:11
+#14: require_once(string)
+	/home/c/cj66659/public_html/bitrix/header.php:1
+#15: require(string)
+	/home/c/cj66659/public_html/stream/index.php:11
+----------
+
+2024-12-29 19:58:12 - Host: cj66659.tw1.ru - LOW_PRIORITY_ERROR - [ErrorException] E_DEPRECATED
+strtolower(): Passing null to parameter #1 ($string) of type string is deprecated (0)
+/home/c/cj66659/public_html/bitrix/modules/landing/lib/restriction/manager.php:118
+#0: strtolower(NULL)
+	/home/c/cj66659/public_html/bitrix/modules/landing/lib/restriction/manager.php:118
+#1: Bitrix\Landing\Restriction\Manager::getMapItem(string)
+	/home/c/cj66659/public_html/bitrix/modules/landing/lib/restriction/manager.php:232
+#2: Bitrix\Landing\Restriction\Manager::isAllowed(string)
+	/home/c/cj66659/public_html/bitrix/modules/landing/lib/manager.php:882
+#3: Bitrix\Landing\Manager::checkFeature(string)
+	/home/c/cj66659/public_html/bitrix/modules/landing/lib/rights.php:201
+#4: Bitrix\Landing\Rights::isFeatureOn()
+	/home/c/cj66659/public_html/bitrix/modules/landing/lib/rights.php:1057
+#5: Bitrix\Landing\Rights::hasAdditionalRight(string, string, boolean, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/intranet/lib/binding/menu.php:761
+#6: Bitrix\Intranet\Binding\Menu::getMenuItems(string, string, array)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/intranet.user.profile.button/class.php:153
+#7: IntranetUserProfileButton->getBindingData(string)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/intranet.user.profile.button/class.php:104
+#8: IntranetUserProfileButton->prepareResult()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/intranet.user.profile.button/class.php:57
+#9: IntranetUserProfileButton->executeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:668
+#10: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#11: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/c/cj66659/public_html/bitrix/templates/bitrix24/header.php:334
+#12: include_once(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/include/prolog_after.php:88
+#13: require(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/include/prolog.php:11
+#14: require_once(string)
+	/home/c/cj66659/public_html/bitrix/header.php:1
+#15: require(string)
+	/home/c/cj66659/public_html/stream/index.php:11
+----------
+
+2024-12-29 19:58:12 - Host: cj66659.tw1.ru - LOW_PRIORITY_ERROR - [ErrorException] E_DEPRECATED
+str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (0)
+/home/c/cj66659/public_html/bitrix/modules/main/lib/db/sqlhelper.php:70
+#0: str_replace(array, string, NULL)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/db/sqlhelper.php:70
+#1: Bitrix\Main\DB\SqlHelper->quote(NULL)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/query/chainelement.php:265
+#2: Bitrix\Main\ORM\Query\ChainElement->getSqlDefinition()
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/query/chain.php:499
+#3: Bitrix\Main\ORM\Query\Chain->getSqlDefinition()
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/query/chainelement.php:248
+#4: Bitrix\Main\ORM\Query\ChainElement->getSqlDefinition()
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/query/chain.php:499
+#5: Bitrix\Main\ORM\Query\Chain->getSqlDefinition()
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/query/query.php:2664
+#6: Bitrix\Main\ORM\Query\Query->getFilterCswFields(array)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/query/query.php:2267
+#7: Bitrix\Main\ORM\Query\Query->buildWhere()
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/query/query.php:2508
+#8: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#9: Bitrix\Main\ORM\Query\Query->exec()
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+#10: Bitrix\Main\ORM\Data\DataManager::getList(array)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:399
+#11: Bitrix\Main\ORM\Data\DataManager::getRow(array)
+	/home/c/cj66659/public_html/bitrix/modules/crm/classes/general/sale_helper.php:739
+#12: CCrmSaleHelper::addShopAccessByUserId(integer)
+	/home/c/cj66659/public_html/bitrix/modules/crm/classes/general/sale_helper.php:452
+#13: CCrmSaleHelper::isShopAccess(string)
+	/home/c/cj66659/public_html/bitrix/modules/crm/classes/general/sale_helper.php:427
+#14: CCrmSaleHelper::isShopAccess()
+	/home/c/cj66659/public_html/bitrix/modules/intranet/lib/Settings/Tools/Sites.php:17
+#15: Bitrix\Intranet\Settings\Tools\Sites->isShopEnabled()
+	/home/c/cj66659/public_html/bitrix/modules/intranet/lib/Settings/Tools/Sites.php:52
+#16: Bitrix\Intranet\Settings\Tools\Sites->getMenuItemId()
+	/home/c/cj66659/public_html/bitrix/modules/intranet/lib/Settings/Tools/ToolsManager.php:38
+#17: Bitrix\Intranet\Settings\Tools\ToolsManager->init()
+	/home/c/cj66659/public_html/bitrix/modules/intranet/lib/Settings/Tools/ToolsManager.php:161
+#18: Bitrix\Intranet\Settings\Tools\ToolsManager->getSorter()
+	/home/c/cj66659/public_html/bitrix/modules/intranet/lib/UI/LeftMenu/Preset/PresetAbstract.php:169
+#19: Bitrix\Intranet\UI\LeftMenu\Preset\PresetAbstract->getToolsStructure()
+	/home/c/cj66659/public_html/bitrix/modules/intranet/lib/UI/LeftMenu/Preset/PresetAbstract.php:94
+#20: Bitrix\Intranet\UI\LeftMenu\Preset\PresetAbstract->getFinalStructure()
+	/home/c/cj66659/public_html/bitrix/modules/intranet/lib/UI/LeftMenu/Preset/PresetAbstract.php:329
+#21: Bitrix\Intranet\UI\LeftMenu\Preset\PresetAbstract->getPlainStructure()
+	/home/c/cj66659/public_html/bitrix/modules/intranet/lib/UI/LeftMenu/Preset/PresetAbstract.php:352
+#22: Bitrix\Intranet\UI\LeftMenu\Preset\PresetAbstract->getItems()
+	/home/c/cj66659/public_html/bitrix/modules/intranet/lib/UI/LeftMenu/Menu.php:172
+#23: Bitrix\Intranet\UI\LeftMenu\Menu->applyPreset(object)
+	/home/c/cj66659/public_html/bitrix/templates/bitrix24/components/bitrix/menu/left_vertical/result_modifier.php:38
+#24: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:947
+#25: CBitrixComponentTemplate->__IncludeMutatorFile(array, array)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:854
+#26: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:784
+#27: CBitrixComponent->showComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:724
+#28: CBitrixComponent->includeComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/menu/component.php:410
+#29: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:615
+#30: CBitrixComponent->__includeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:105
+#31: CBitrixComponent->executeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:668
+#32: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#33: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/c/cj66659/public_html/bitrix/templates/bitrix24/header.php:390
+#34: include_once(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/include/prolog_after.php:88
+#35: require(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/include/prolog.php:11
+#36: require_once(string)
+	/home/c/cj66659/public_html/bitrix/header.php:1
+#37: require(string)
+	/home/c/cj66659/public_html/stream/index.php:11
+----------
+
+2024-12-29 19:58:12 - Host: cj66659.tw1.ru - LOW_PRIORITY_ERROR - [ErrorException] E_DEPRECATED
+preg_replace_callback(): Passing null to parameter #3 ($subject) of type array|string is deprecated (0)
+/home/c/cj66659/public_html/bitrix/modules/main/lib/text/emoji.php:26
+#0: preg_replace_callback(string, object, NULL)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/text/emoji.php:26
+#1: Bitrix\Main\Text\Emoji::decode(NULL, object, array, string)
+	
+#2: call_user_func_array(array, array)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/query/query.php:3674
+#3: Bitrix\Main\ORM\Query\Query->fetchDataModificationCallback(array)
+	
+#4: call_user_func_array(array, array)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/db/result.php:202
+#5: Bitrix\Main\DB\Result->fetch(NULL)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/db/result.php:236
+#6: Bitrix\Main\DB\Result->fetchAll(NULL)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/query/result.php:632
+#7: Bitrix\Main\ORM\Query\Result->fetchAll()
+	/home/c/cj66659/public_html/bitrix/modules/im/lib/recent.php:367
+#8: Bitrix\Im\Recent::getList(integer, array)
+	/home/c/cj66659/public_html/bitrix/modules/im/lib/V2/Application/Config.php:50
+#9: Bitrix\Im\V2\Application\Config->getPreloadedList()
+	/home/c/cj66659/public_html/bitrix/modules/im/lib/V2/Application/Config.php:31
+#10: Bitrix\Im\V2\Application\Config->jsonSerialize()
+	
+#11: json_encode(object, integer)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/web/json.php:30
+#12: Bitrix\Main\Web\Json::encode(object)
+	/home/c/cj66659/public_html/bitrix/modules/im/lib/V2/Application.php:23
+#13: Bitrix\Im\V2\Application->getTemplate()
+	/home/c/cj66659/public_html/bitrix/modules/im/classes/general/im_messenger.php:3776
+#14: CIMMessenger::GetV2TemplateJS(array)
+	/home/c/cj66659/public_html/bitrix/templates/bitrix24/components/bitrix/im.messenger/.default/template.php:184
+#15: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#16: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#17: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:784
+#18: CBitrixComponent->showComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:724
+#19: CBitrixComponent->includeComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/im.messenger/component.php:38
+#20: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:615
+#21: CBitrixComponent->__includeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:692
+#22: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#23: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/c/cj66659/public_html/bitrix/templates/bitrix24/header.php:406
+#24: include_once(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/include/prolog_after.php:88
+#25: require(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/include/prolog.php:11
+#26: require_once(string)
+	/home/c/cj66659/public_html/bitrix/header.php:1
+#27: require(string)
+	/home/c/cj66659/public_html/stream/index.php:11
+----------
+
+2024-12-29 19:58:12 - Host: cj66659.tw1.ru - LOW_PRIORITY_ERROR - [ErrorException] E_DEPRECATED
+Return type of Bitrix\Vote\Attach::offsetExists($offset) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (0)
+/home/c/cj66659/public_html/bitrix/modules/vote/lib/attach.php:780
+#0: require_once(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/loader.php:369
+#1: Bitrix\Main\Loader::autoLoad(string)
+	/home/c/cj66659/public_html/bitrix/modules/vote/lib/attachment/manager.php:78
+#2: Bitrix\Vote\Attachment\Manager::loadFromEntity(array)
+	/home/c/cj66659/public_html/bitrix/modules/vote/lib/uf/manager.php:155
+#3: Bitrix\Vote\Uf\Manager->loadFromEntity()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/voting.uf/class.php:217
+#4: CVoteUfComponent->prepareParams()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/voting.uf/class.php:119
+#5: CVoteUfComponent->executeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:668
+#6: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#7: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/system.field.edit/templates/vote/template.php:20
+#8: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#9: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#10: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:784
+#11: CBitrixComponent->showComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:724
+#12: CBitrixComponent->includeComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/system.field.edit/component.php:182
+#13: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:615
+#14: CBitrixComponent->__includeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:692
+#15: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#16: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.blog.post.edit/templates/.default/template.php:763
+#17: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#18: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#19: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:784
+#20: CBitrixComponent->showComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:724
+#21: CBitrixComponent->includeComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.blog.post.edit/component.php:2973
+#22: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:615
+#23: CBitrixComponent->__includeComponent()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.blog.post.edit/class.php:19
+#24: SocialnetworkBlogPostEdit->executeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:668
+#25: CBitrixComponent->includeComponent(string, array, object, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#26: CAllMain->IncludeComponent(string, string, array, object, array)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.log.ex/templates/.default/include/top_forms.php:126
+#27: require_once(string)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.log.ex/templates/.default/template.php:183
+#28: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#29: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#30: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:784
+#31: CBitrixComponent->showComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:724
+#32: CBitrixComponent->includeComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.log.ex/class.php:61
+#33: SocialnetworkLogList->executeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:668
+#34: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#35: CAllMain->IncludeComponent(string, string, array)
+	/home/c/cj66659/public_html/stream/index.php:74
+----------
+
+2024-12-29 19:58:12 - Host: cj66659.tw1.ru - LOW_PRIORITY_ERROR - [ErrorException] E_DEPRECATED
+Return type of Bitrix\Vote\Attach::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (0)
+/home/c/cj66659/public_html/bitrix/modules/vote/lib/attach.php:793
+#0: require_once(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/loader.php:369
+#1: Bitrix\Main\Loader::autoLoad(string)
+	/home/c/cj66659/public_html/bitrix/modules/vote/lib/attachment/manager.php:78
+#2: Bitrix\Vote\Attachment\Manager::loadFromEntity(array)
+	/home/c/cj66659/public_html/bitrix/modules/vote/lib/uf/manager.php:155
+#3: Bitrix\Vote\Uf\Manager->loadFromEntity()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/voting.uf/class.php:217
+#4: CVoteUfComponent->prepareParams()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/voting.uf/class.php:119
+#5: CVoteUfComponent->executeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:668
+#6: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#7: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/system.field.edit/templates/vote/template.php:20
+#8: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#9: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#10: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:784
+#11: CBitrixComponent->showComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:724
+#12: CBitrixComponent->includeComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/system.field.edit/component.php:182
+#13: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:615
+#14: CBitrixComponent->__includeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:692
+#15: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#16: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.blog.post.edit/templates/.default/template.php:763
+#17: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#18: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#19: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:784
+#20: CBitrixComponent->showComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:724
+#21: CBitrixComponent->includeComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.blog.post.edit/component.php:2973
+#22: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:615
+#23: CBitrixComponent->__includeComponent()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.blog.post.edit/class.php:19
+#24: SocialnetworkBlogPostEdit->executeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:668
+#25: CBitrixComponent->includeComponent(string, array, object, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#26: CAllMain->IncludeComponent(string, string, array, object, array)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.log.ex/templates/.default/include/top_forms.php:126
+#27: require_once(string)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.log.ex/templates/.default/template.php:183
+#28: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#29: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#30: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:784
+#31: CBitrixComponent->showComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:724
+#32: CBitrixComponent->includeComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.log.ex/class.php:61
+#33: SocialnetworkLogList->executeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:668
+#34: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#35: CAllMain->IncludeComponent(string, string, array)
+	/home/c/cj66659/public_html/stream/index.php:74
+----------
+
+2024-12-29 19:58:12 - Host: cj66659.tw1.ru - LOW_PRIORITY_ERROR - [ErrorException] E_DEPRECATED
+Return type of Bitrix\Vote\Attach::offsetSet($offset, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (0)
+/home/c/cj66659/public_html/bitrix/modules/vote/lib/attach.php:814
+#0: require_once(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/loader.php:369
+#1: Bitrix\Main\Loader::autoLoad(string)
+	/home/c/cj66659/public_html/bitrix/modules/vote/lib/attachment/manager.php:78
+#2: Bitrix\Vote\Attachment\Manager::loadFromEntity(array)
+	/home/c/cj66659/public_html/bitrix/modules/vote/lib/uf/manager.php:155
+#3: Bitrix\Vote\Uf\Manager->loadFromEntity()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/voting.uf/class.php:217
+#4: CVoteUfComponent->prepareParams()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/voting.uf/class.php:119
+#5: CVoteUfComponent->executeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:668
+#6: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#7: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/system.field.edit/templates/vote/template.php:20
+#8: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#9: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#10: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:784
+#11: CBitrixComponent->showComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:724
+#12: CBitrixComponent->includeComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/system.field.edit/component.php:182
+#13: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:615
+#14: CBitrixComponent->__includeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:692
+#15: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#16: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.blog.post.edit/templates/.default/template.php:763
+#17: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#18: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#19: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:784
+#20: CBitrixComponent->showComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:724
+#21: CBitrixComponent->includeComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.blog.post.edit/component.php:2973
+#22: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:615
+#23: CBitrixComponent->__includeComponent()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.blog.post.edit/class.php:19
+#24: SocialnetworkBlogPostEdit->executeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:668
+#25: CBitrixComponent->includeComponent(string, array, object, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#26: CAllMain->IncludeComponent(string, string, array, object, array)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.log.ex/templates/.default/include/top_forms.php:126
+#27: require_once(string)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.log.ex/templates/.default/template.php:183
+#28: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#29: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#30: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:784
+#31: CBitrixComponent->showComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:724
+#32: CBitrixComponent->includeComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.log.ex/class.php:61
+#33: SocialnetworkLogList->executeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:668
+#34: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#35: CAllMain->IncludeComponent(string, string, array)
+	/home/c/cj66659/public_html/stream/index.php:74
+----------
+
+2024-12-29 19:58:12 - Host: cj66659.tw1.ru - LOW_PRIORITY_ERROR - [ErrorException] E_DEPRECATED
+Return type of Bitrix\Vote\Attach::offsetUnset($offset) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (0)
+/home/c/cj66659/public_html/bitrix/modules/vote/lib/attach.php:825
+#0: require_once(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/loader.php:369
+#1: Bitrix\Main\Loader::autoLoad(string)
+	/home/c/cj66659/public_html/bitrix/modules/vote/lib/attachment/manager.php:78
+#2: Bitrix\Vote\Attachment\Manager::loadFromEntity(array)
+	/home/c/cj66659/public_html/bitrix/modules/vote/lib/uf/manager.php:155
+#3: Bitrix\Vote\Uf\Manager->loadFromEntity()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/voting.uf/class.php:217
+#4: CVoteUfComponent->prepareParams()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/voting.uf/class.php:119
+#5: CVoteUfComponent->executeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:668
+#6: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#7: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/system.field.edit/templates/vote/template.php:20
+#8: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#9: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#10: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:784
+#11: CBitrixComponent->showComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:724
+#12: CBitrixComponent->includeComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/system.field.edit/component.php:182
+#13: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:615
+#14: CBitrixComponent->__includeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:692
+#15: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#16: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.blog.post.edit/templates/.default/template.php:763
+#17: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#18: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#19: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:784
+#20: CBitrixComponent->showComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:724
+#21: CBitrixComponent->includeComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.blog.post.edit/component.php:2973
+#22: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:615
+#23: CBitrixComponent->__includeComponent()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.blog.post.edit/class.php:19
+#24: SocialnetworkBlogPostEdit->executeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:668
+#25: CBitrixComponent->includeComponent(string, array, object, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#26: CAllMain->IncludeComponent(string, string, array, object, array)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.log.ex/templates/.default/include/top_forms.php:126
+#27: require_once(string)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.log.ex/templates/.default/template.php:183
+#28: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#29: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#30: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:784
+#31: CBitrixComponent->showComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:724
+#32: CBitrixComponent->includeComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.log.ex/class.php:61
+#33: SocialnetworkLogList->executeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:668
+#34: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#35: CAllMain->IncludeComponent(string, string, array)
+	/home/c/cj66659/public_html/stream/index.php:74
+----------
+
+2024-12-29 19:58:12 - Host: cj66659.tw1.ru - LOW_PRIORITY_ERROR - [ErrorException] E_DEPRECATED
+Return type of Bitrix\Vote\Vote::offsetExists($offset) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (0)
+/home/c/cj66659/public_html/bitrix/modules/vote/lib/vote.php:1886
+#0: require_once(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/loader.php:369
+#1: Bitrix\Main\Loader::autoLoad(string)
+	
+#2: class_exists(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/fields/relations/relation.php:76
+#3: Bitrix\Main\ORM\Fields\Relations\Relation->getRefEntity()
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/query/chain.php:241
+#4: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+#5: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/query/query.php:2476
+#6: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#7: Bitrix\Main\ORM\Query\Query->exec()
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+#8: Bitrix\Main\ORM\Data\DataManager::getList(array)
+	/home/c/cj66659/public_html/bitrix/modules/vote/lib/attach.php:122
+#9: Bitrix\Vote\AttachTable::getList(array)
+	/home/c/cj66659/public_html/bitrix/modules/vote/lib/attach.php:278
+#10: Bitrix\Vote\Attach::getData(string)
+	/home/c/cj66659/public_html/bitrix/modules/vote/lib/attachment/manager.php:78
+#11: Bitrix\Vote\Attachment\Manager::loadFromEntity(array)
+	/home/c/cj66659/public_html/bitrix/modules/vote/lib/uf/manager.php:155
+#12: Bitrix\Vote\Uf\Manager->loadFromEntity()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/voting.uf/class.php:217
+#13: CVoteUfComponent->prepareParams()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/voting.uf/class.php:119
+#14: CVoteUfComponent->executeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:668
+#15: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#16: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/system.field.edit/templates/vote/template.php:20
+#17: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#18: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#19: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:784
+#20: CBitrixComponent->showComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:724
+#21: CBitrixComponent->includeComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/system.field.edit/component.php:182
+#22: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:615
+#23: CBitrixComponent->__includeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:692
+#24: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#25: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.blog.post.edit/templates/.default/template.php:763
+#26: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#27: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#28: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:784
+#29: CBitrixComponent->showComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:724
+#30: CBitrixComponent->includeComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.blog.post.edit/component.php:2973
+#31: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:615
+#32: CBitrixComponent->__includeComponent()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.blog.post.edit/class.php:19
+#33: SocialnetworkBlogPostEdit->executeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:668
+#34: CBitrixComponent->includeComponent(string, array, object, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#35: CAllMain->IncludeComponent(string, string, array, object, array)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.log.ex/templates/.default/include/top_forms.php:126
+#36: require_once(string)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.log.ex/templates/.default/template.php:183
+#37: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#38: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#39: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:784
+#40: CBitrixComponent->showComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:724
+#41: CBitrixComponent->includeComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.log.ex/class.php:61
+#42: SocialnetworkLogList->executeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:668
+#43: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#44: CAllMain->IncludeComponent(string, string, array)
+	/home/c/cj66659/public_html/stream/index.php:74
+----------
+
+2024-12-29 19:58:12 - Host: cj66659.tw1.ru - LOW_PRIORITY_ERROR - [ErrorException] E_DEPRECATED
+Return type of Bitrix\Vote\Vote::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (0)
+/home/c/cj66659/public_html/bitrix/modules/vote/lib/vote.php:1896
+#0: require_once(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/loader.php:369
+#1: Bitrix\Main\Loader::autoLoad(string)
+	
+#2: class_exists(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/fields/relations/relation.php:76
+#3: Bitrix\Main\ORM\Fields\Relations\Relation->getRefEntity()
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/query/chain.php:241
+#4: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+#5: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/query/query.php:2476
+#6: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#7: Bitrix\Main\ORM\Query\Query->exec()
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+#8: Bitrix\Main\ORM\Data\DataManager::getList(array)
+	/home/c/cj66659/public_html/bitrix/modules/vote/lib/attach.php:122
+#9: Bitrix\Vote\AttachTable::getList(array)
+	/home/c/cj66659/public_html/bitrix/modules/vote/lib/attach.php:278
+#10: Bitrix\Vote\Attach::getData(string)
+	/home/c/cj66659/public_html/bitrix/modules/vote/lib/attachment/manager.php:78
+#11: Bitrix\Vote\Attachment\Manager::loadFromEntity(array)
+	/home/c/cj66659/public_html/bitrix/modules/vote/lib/uf/manager.php:155
+#12: Bitrix\Vote\Uf\Manager->loadFromEntity()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/voting.uf/class.php:217
+#13: CVoteUfComponent->prepareParams()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/voting.uf/class.php:119
+#14: CVoteUfComponent->executeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:668
+#15: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#16: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/system.field.edit/templates/vote/template.php:20
+#17: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#18: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#19: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:784
+#20: CBitrixComponent->showComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:724
+#21: CBitrixComponent->includeComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/system.field.edit/component.php:182
+#22: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:615
+#23: CBitrixComponent->__includeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:692
+#24: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#25: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.blog.post.edit/templates/.default/template.php:763
+#26: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#27: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#28: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:784
+#29: CBitrixComponent->showComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:724
+#30: CBitrixComponent->includeComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.blog.post.edit/component.php:2973
+#31: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:615
+#32: CBitrixComponent->__includeComponent()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.blog.post.edit/class.php:19
+#33: SocialnetworkBlogPostEdit->executeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:668
+#34: CBitrixComponent->includeComponent(string, array, object, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#35: CAllMain->IncludeComponent(string, string, array, object, array)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.log.ex/templates/.default/include/top_forms.php:126
+#36: require_once(string)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.log.ex/templates/.default/template.php:183
+#37: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#38: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#39: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:784
+#40: CBitrixComponent->showComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:724
+#41: CBitrixComponent->includeComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.log.ex/class.php:61
+#42: SocialnetworkLogList->executeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:668
+#43: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#44: CAllMain->IncludeComponent(string, string, array)
+	/home/c/cj66659/public_html/stream/index.php:74
+----------
+
+2024-12-29 19:58:12 - Host: cj66659.tw1.ru - LOW_PRIORITY_ERROR - [ErrorException] E_DEPRECATED
+Return type of Bitrix\Vote\Vote::offsetSet($offset, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (0)
+/home/c/cj66659/public_html/bitrix/modules/vote/lib/vote.php:1911
+#0: require_once(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/loader.php:369
+#1: Bitrix\Main\Loader::autoLoad(string)
+	
+#2: class_exists(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/fields/relations/relation.php:76
+#3: Bitrix\Main\ORM\Fields\Relations\Relation->getRefEntity()
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/query/chain.php:241
+#4: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+#5: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/query/query.php:2476
+#6: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#7: Bitrix\Main\ORM\Query\Query->exec()
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+#8: Bitrix\Main\ORM\Data\DataManager::getList(array)
+	/home/c/cj66659/public_html/bitrix/modules/vote/lib/attach.php:122
+#9: Bitrix\Vote\AttachTable::getList(array)
+	/home/c/cj66659/public_html/bitrix/modules/vote/lib/attach.php:278
+#10: Bitrix\Vote\Attach::getData(string)
+	/home/c/cj66659/public_html/bitrix/modules/vote/lib/attachment/manager.php:78
+#11: Bitrix\Vote\Attachment\Manager::loadFromEntity(array)
+	/home/c/cj66659/public_html/bitrix/modules/vote/lib/uf/manager.php:155
+#12: Bitrix\Vote\Uf\Manager->loadFromEntity()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/voting.uf/class.php:217
+#13: CVoteUfComponent->prepareParams()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/voting.uf/class.php:119
+#14: CVoteUfComponent->executeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:668
+#15: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#16: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/system.field.edit/templates/vote/template.php:20
+#17: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#18: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#19: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:784
+#20: CBitrixComponent->showComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:724
+#21: CBitrixComponent->includeComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/system.field.edit/component.php:182
+#22: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:615
+#23: CBitrixComponent->__includeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:692
+#24: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#25: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.blog.post.edit/templates/.default/template.php:763
+#26: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#27: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#28: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:784
+#29: CBitrixComponent->showComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:724
+#30: CBitrixComponent->includeComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.blog.post.edit/component.php:2973
+#31: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:615
+#32: CBitrixComponent->__includeComponent()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.blog.post.edit/class.php:19
+#33: SocialnetworkBlogPostEdit->executeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:668
+#34: CBitrixComponent->includeComponent(string, array, object, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#35: CAllMain->IncludeComponent(string, string, array, object, array)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.log.ex/templates/.default/include/top_forms.php:126
+#36: require_once(string)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.log.ex/templates/.default/template.php:183
+#37: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#38: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#39: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:784
+#40: CBitrixComponent->showComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:724
+#41: CBitrixComponent->includeComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.log.ex/class.php:61
+#42: SocialnetworkLogList->executeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:668
+#43: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#44: CAllMain->IncludeComponent(string, string, array)
+	/home/c/cj66659/public_html/stream/index.php:74
+----------
+
+2024-12-29 19:58:12 - Host: cj66659.tw1.ru - LOW_PRIORITY_ERROR - [ErrorException] E_DEPRECATED
+Return type of Bitrix\Vote\Vote::offsetUnset($offset) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (0)
+/home/c/cj66659/public_html/bitrix/modules/vote/lib/vote.php:1921
+#0: require_once(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/loader.php:369
+#1: Bitrix\Main\Loader::autoLoad(string)
+	
+#2: class_exists(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/fields/relations/relation.php:76
+#3: Bitrix\Main\ORM\Fields\Relations\Relation->getRefEntity()
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/query/chain.php:241
+#4: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+#5: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/query/query.php:2476
+#6: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#7: Bitrix\Main\ORM\Query\Query->exec()
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+#8: Bitrix\Main\ORM\Data\DataManager::getList(array)
+	/home/c/cj66659/public_html/bitrix/modules/vote/lib/attach.php:122
+#9: Bitrix\Vote\AttachTable::getList(array)
+	/home/c/cj66659/public_html/bitrix/modules/vote/lib/attach.php:278
+#10: Bitrix\Vote\Attach::getData(string)
+	/home/c/cj66659/public_html/bitrix/modules/vote/lib/attachment/manager.php:78
+#11: Bitrix\Vote\Attachment\Manager::loadFromEntity(array)
+	/home/c/cj66659/public_html/bitrix/modules/vote/lib/uf/manager.php:155
+#12: Bitrix\Vote\Uf\Manager->loadFromEntity()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/voting.uf/class.php:217
+#13: CVoteUfComponent->prepareParams()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/voting.uf/class.php:119
+#14: CVoteUfComponent->executeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:668
+#15: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#16: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/system.field.edit/templates/vote/template.php:20
+#17: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#18: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#19: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:784
+#20: CBitrixComponent->showComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:724
+#21: CBitrixComponent->includeComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/system.field.edit/component.php:182
+#22: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:615
+#23: CBitrixComponent->__includeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:692
+#24: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#25: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.blog.post.edit/templates/.default/template.php:763
+#26: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#27: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#28: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:784
+#29: CBitrixComponent->showComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:724
+#30: CBitrixComponent->includeComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.blog.post.edit/component.php:2973
+#31: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:615
+#32: CBitrixComponent->__includeComponent()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.blog.post.edit/class.php:19
+#33: SocialnetworkBlogPostEdit->executeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:668
+#34: CBitrixComponent->includeComponent(string, array, object, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#35: CAllMain->IncludeComponent(string, string, array, object, array)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.log.ex/templates/.default/include/top_forms.php:126
+#36: require_once(string)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.log.ex/templates/.default/template.php:183
+#37: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#38: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#39: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:784
+#40: CBitrixComponent->showComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:724
+#41: CBitrixComponent->includeComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.log.ex/class.php:61
+#42: SocialnetworkLogList->executeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:668
+#43: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#44: CAllMain->IncludeComponent(string, string, array)
+	/home/c/cj66659/public_html/stream/index.php:74
+----------
+
+2024-12-29 19:58:12 - Host: cj66659.tw1.ru - LOW_PRIORITY_ERROR - [ErrorException] E_DEPRECATED
+Return type of Bitrix\Vote\Channel::offsetExists($offset) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (0)
+/home/c/cj66659/public_html/bitrix/modules/vote/lib/channel.php:376
+#0: require_once(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/loader.php:369
+#1: Bitrix\Main\Loader::autoLoad(string)
+	
+#2: class_exists(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/fields/relations/relation.php:76
+#3: Bitrix\Main\ORM\Fields\Relations\Relation->getRefEntity()
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/query/chain.php:241
+#4: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/fields/expressionfield.php:295
+#5: Bitrix\Main\ORM\Fields\ExpressionField->getBuildFromChains()
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/query/query.php:3365
+#6: Bitrix\Main\ORM\Query\Query->collectExprChains(object, array)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/query/query.php:1343
+#7: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/query/query.php:2476
+#8: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#9: Bitrix\Main\ORM\Query\Query->exec()
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+#10: Bitrix\Main\ORM\Data\DataManager::getList(array)
+	/home/c/cj66659/public_html/bitrix/modules/vote/lib/attach.php:122
+#11: Bitrix\Vote\AttachTable::getList(array)
+	/home/c/cj66659/public_html/bitrix/modules/vote/lib/attach.php:278
+#12: Bitrix\Vote\Attach::getData(string)
+	/home/c/cj66659/public_html/bitrix/modules/vote/lib/attachment/manager.php:78
+#13: Bitrix\Vote\Attachment\Manager::loadFromEntity(array)
+	/home/c/cj66659/public_html/bitrix/modules/vote/lib/uf/manager.php:155
+#14: Bitrix\Vote\Uf\Manager->loadFromEntity()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/voting.uf/class.php:217
+#15: CVoteUfComponent->prepareParams()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/voting.uf/class.php:119
+#16: CVoteUfComponent->executeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:668
+#17: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#18: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/system.field.edit/templates/vote/template.php:20
+#19: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#20: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#21: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:784
+#22: CBitrixComponent->showComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:724
+#23: CBitrixComponent->includeComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/system.field.edit/component.php:182
+#24: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:615
+#25: CBitrixComponent->__includeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:692
+#26: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#27: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.blog.post.edit/templates/.default/template.php:763
+#28: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#29: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#30: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:784
+#31: CBitrixComponent->showComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:724
+#32: CBitrixComponent->includeComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.blog.post.edit/component.php:2973
+#33: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:615
+#34: CBitrixComponent->__includeComponent()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.blog.post.edit/class.php:19
+#35: SocialnetworkBlogPostEdit->executeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:668
+#36: CBitrixComponent->includeComponent(string, array, object, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#37: CAllMain->IncludeComponent(string, string, array, object, array)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.log.ex/templates/.default/include/top_forms.php:126
+#38: require_once(string)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.log.ex/templates/.default/template.php:183
+#39: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#40: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#41: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:784
+#42: CBitrixComponent->showComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:724
+#43: CBitrixComponent->includeComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.log.ex/class.php:61
+#44: SocialnetworkLogList->executeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:668
+#45: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#46: CAllMain->IncludeComponent(string, string, array)
+	/home/c/cj66659/public_html/stream/index.php:74
+----------
+
+2024-12-29 19:58:12 - Host: cj66659.tw1.ru - LOW_PRIORITY_ERROR - [ErrorException] E_DEPRECATED
+Return type of Bitrix\Vote\Channel::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (0)
+/home/c/cj66659/public_html/bitrix/modules/vote/lib/channel.php:384
+#0: require_once(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/loader.php:369
+#1: Bitrix\Main\Loader::autoLoad(string)
+	
+#2: class_exists(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/fields/relations/relation.php:76
+#3: Bitrix\Main\ORM\Fields\Relations\Relation->getRefEntity()
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/query/chain.php:241
+#4: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/fields/expressionfield.php:295
+#5: Bitrix\Main\ORM\Fields\ExpressionField->getBuildFromChains()
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/query/query.php:3365
+#6: Bitrix\Main\ORM\Query\Query->collectExprChains(object, array)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/query/query.php:1343
+#7: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/query/query.php:2476
+#8: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#9: Bitrix\Main\ORM\Query\Query->exec()
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+#10: Bitrix\Main\ORM\Data\DataManager::getList(array)
+	/home/c/cj66659/public_html/bitrix/modules/vote/lib/attach.php:122
+#11: Bitrix\Vote\AttachTable::getList(array)
+	/home/c/cj66659/public_html/bitrix/modules/vote/lib/attach.php:278
+#12: Bitrix\Vote\Attach::getData(string)
+	/home/c/cj66659/public_html/bitrix/modules/vote/lib/attachment/manager.php:78
+#13: Bitrix\Vote\Attachment\Manager::loadFromEntity(array)
+	/home/c/cj66659/public_html/bitrix/modules/vote/lib/uf/manager.php:155
+#14: Bitrix\Vote\Uf\Manager->loadFromEntity()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/voting.uf/class.php:217
+#15: CVoteUfComponent->prepareParams()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/voting.uf/class.php:119
+#16: CVoteUfComponent->executeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:668
+#17: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#18: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/system.field.edit/templates/vote/template.php:20
+#19: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#20: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#21: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:784
+#22: CBitrixComponent->showComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:724
+#23: CBitrixComponent->includeComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/system.field.edit/component.php:182
+#24: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:615
+#25: CBitrixComponent->__includeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:692
+#26: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#27: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.blog.post.edit/templates/.default/template.php:763
+#28: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#29: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#30: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:784
+#31: CBitrixComponent->showComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:724
+#32: CBitrixComponent->includeComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.blog.post.edit/component.php:2973
+#33: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:615
+#34: CBitrixComponent->__includeComponent()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.blog.post.edit/class.php:19
+#35: SocialnetworkBlogPostEdit->executeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:668
+#36: CBitrixComponent->includeComponent(string, array, object, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#37: CAllMain->IncludeComponent(string, string, array, object, array)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.log.ex/templates/.default/include/top_forms.php:126
+#38: require_once(string)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.log.ex/templates/.default/template.php:183
+#39: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#40: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#41: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:784
+#42: CBitrixComponent->showComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:724
+#43: CBitrixComponent->includeComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.log.ex/class.php:61
+#44: SocialnetworkLogList->executeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:668
+#45: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#46: CAllMain->IncludeComponent(string, string, array)
+	/home/c/cj66659/public_html/stream/index.php:74
+----------
+
+2024-12-29 19:58:12 - Host: cj66659.tw1.ru - LOW_PRIORITY_ERROR - [ErrorException] E_DEPRECATED
+Return type of Bitrix\Vote\Channel::offsetSet($offset, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (0)
+/home/c/cj66659/public_html/bitrix/modules/vote/lib/channel.php:395
+#0: require_once(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/loader.php:369
+#1: Bitrix\Main\Loader::autoLoad(string)
+	
+#2: class_exists(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/fields/relations/relation.php:76
+#3: Bitrix\Main\ORM\Fields\Relations\Relation->getRefEntity()
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/query/chain.php:241
+#4: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/fields/expressionfield.php:295
+#5: Bitrix\Main\ORM\Fields\ExpressionField->getBuildFromChains()
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/query/query.php:3365
+#6: Bitrix\Main\ORM\Query\Query->collectExprChains(object, array)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/query/query.php:1343
+#7: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/query/query.php:2476
+#8: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#9: Bitrix\Main\ORM\Query\Query->exec()
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+#10: Bitrix\Main\ORM\Data\DataManager::getList(array)
+	/home/c/cj66659/public_html/bitrix/modules/vote/lib/attach.php:122
+#11: Bitrix\Vote\AttachTable::getList(array)
+	/home/c/cj66659/public_html/bitrix/modules/vote/lib/attach.php:278
+#12: Bitrix\Vote\Attach::getData(string)
+	/home/c/cj66659/public_html/bitrix/modules/vote/lib/attachment/manager.php:78
+#13: Bitrix\Vote\Attachment\Manager::loadFromEntity(array)
+	/home/c/cj66659/public_html/bitrix/modules/vote/lib/uf/manager.php:155
+#14: Bitrix\Vote\Uf\Manager->loadFromEntity()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/voting.uf/class.php:217
+#15: CVoteUfComponent->prepareParams()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/voting.uf/class.php:119
+#16: CVoteUfComponent->executeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:668
+#17: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#18: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/system.field.edit/templates/vote/template.php:20
+#19: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#20: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#21: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:784
+#22: CBitrixComponent->showComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:724
+#23: CBitrixComponent->includeComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/system.field.edit/component.php:182
+#24: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:615
+#25: CBitrixComponent->__includeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:692
+#26: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#27: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.blog.post.edit/templates/.default/template.php:763
+#28: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#29: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#30: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:784
+#31: CBitrixComponent->showComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:724
+#32: CBitrixComponent->includeComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.blog.post.edit/component.php:2973
+#33: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:615
+#34: CBitrixComponent->__includeComponent()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.blog.post.edit/class.php:19
+#35: SocialnetworkBlogPostEdit->executeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:668
+#36: CBitrixComponent->includeComponent(string, array, object, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#37: CAllMain->IncludeComponent(string, string, array, object, array)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.log.ex/templates/.default/include/top_forms.php:126
+#38: require_once(string)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.log.ex/templates/.default/template.php:183
+#39: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#40: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#41: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:784
+#42: CBitrixComponent->showComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:724
+#43: CBitrixComponent->includeComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.log.ex/class.php:61
+#44: SocialnetworkLogList->executeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:668
+#45: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#46: CAllMain->IncludeComponent(string, string, array)
+	/home/c/cj66659/public_html/stream/index.php:74
+----------
+
+2024-12-29 19:58:12 - Host: cj66659.tw1.ru - LOW_PRIORITY_ERROR - [ErrorException] E_DEPRECATED
+Return type of Bitrix\Vote\Channel::offsetUnset($offset) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (0)
+/home/c/cj66659/public_html/bitrix/modules/vote/lib/channel.php:403
+#0: require_once(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/loader.php:369
+#1: Bitrix\Main\Loader::autoLoad(string)
+	
+#2: class_exists(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/fields/relations/relation.php:76
+#3: Bitrix\Main\ORM\Fields\Relations\Relation->getRefEntity()
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/query/chain.php:241
+#4: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/fields/expressionfield.php:295
+#5: Bitrix\Main\ORM\Fields\ExpressionField->getBuildFromChains()
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/query/query.php:3365
+#6: Bitrix\Main\ORM\Query\Query->collectExprChains(object, array)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/query/query.php:1343
+#7: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/query/query.php:2476
+#8: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#9: Bitrix\Main\ORM\Query\Query->exec()
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+#10: Bitrix\Main\ORM\Data\DataManager::getList(array)
+	/home/c/cj66659/public_html/bitrix/modules/vote/lib/attach.php:122
+#11: Bitrix\Vote\AttachTable::getList(array)
+	/home/c/cj66659/public_html/bitrix/modules/vote/lib/attach.php:278
+#12: Bitrix\Vote\Attach::getData(string)
+	/home/c/cj66659/public_html/bitrix/modules/vote/lib/attachment/manager.php:78
+#13: Bitrix\Vote\Attachment\Manager::loadFromEntity(array)
+	/home/c/cj66659/public_html/bitrix/modules/vote/lib/uf/manager.php:155
+#14: Bitrix\Vote\Uf\Manager->loadFromEntity()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/voting.uf/class.php:217
+#15: CVoteUfComponent->prepareParams()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/voting.uf/class.php:119
+#16: CVoteUfComponent->executeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:668
+#17: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#18: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/system.field.edit/templates/vote/template.php:20
+#19: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#20: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#21: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:784
+#22: CBitrixComponent->showComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:724
+#23: CBitrixComponent->includeComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/system.field.edit/component.php:182
+#24: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:615
+#25: CBitrixComponent->__includeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:692
+#26: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#27: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.blog.post.edit/templates/.default/template.php:763
+#28: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#29: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#30: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:784
+#31: CBitrixComponent->showComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:724
+#32: CBitrixComponent->includeComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.blog.post.edit/component.php:2973
+#33: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:615
+#34: CBitrixComponent->__includeComponent()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.blog.post.edit/class.php:19
+#35: SocialnetworkBlogPostEdit->executeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:668
+#36: CBitrixComponent->includeComponent(string, array, object, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#37: CAllMain->IncludeComponent(string, string, array, object, array)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.log.ex/templates/.default/include/top_forms.php:126
+#38: require_once(string)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.log.ex/templates/.default/template.php:183
+#39: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#40: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#41: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:784
+#42: CBitrixComponent->showComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:724
+#43: CBitrixComponent->includeComponentTemplate()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/socialnetwork.log.ex/class.php:61
+#44: SocialnetworkLogList->executeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:668
+#45: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#46: CAllMain->IncludeComponent(string, string, array)
+	/home/c/cj66659/public_html/stream/index.php:74
+----------
+
+2024-12-29 19:58:13 - Host: cj66659.tw1.ru - LOW_PRIORITY_ERROR - [ErrorException] E_DEPRECATED
+Optional parameter $nav declared before required parameter $server is implicitly treated as a required parameter (0)
+/home/c/cj66659/public_html/bitrix/modules/crm/lib/tracking/rest.php:41
+#0: require_once
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/loader.php:433
+#1: Bitrix\Main\Loader::autoLoad(string)
+	/home/c/cj66659/public_html/bitrix/modules/crm/classes/general/restservice.php:497
+#2: CCrmRestService::onRestServiceBuildDescription()
+	/home/c/cj66659/public_html/bitrix/modules/main/tools.php:5253
+#3: ExecuteModuleEventEx(array)
+	/home/c/cj66659/public_html/bitrix/modules/rest/classes/general/rest_provider.php:172
+#4: CRestProvider->getDescription()
+	/home/c/cj66659/public_html/bitrix/modules/rest/classes/general/rest.php:118
+#5: CRestServer->process()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/rest.server/component.php:86
+#6: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:615
+#7: CBitrixComponent->__includeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:692
+#8: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#9: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/rest.provider/component.php:11
+#10: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:615
+#11: CBitrixComponent->__includeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:692
+#12: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#13: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/c/cj66659/public_html/bitrix/modules/rest/services/rest/index.php:26
+#14: require(string)
+	/home/c/cj66659/public_html/bitrix/services/rest/index.php:1
+#15: include_once(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#16: include_once(string)
+	/home/c/cj66659/public_html/bitrix/urlrewrite.php:2
+----------
+
+2024-12-29 19:58:13 - Host: cj66659.tw1.ru - LOW_PRIORITY_ERROR - [ErrorException] E_DEPRECATED
+Optional parameter $nav declared before required parameter $server is implicitly treated as a required parameter (0)
+/home/c/cj66659/public_html/bitrix/modules/crm/lib/tracking/rest.php:79
+#0: require_once
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/loader.php:433
+#1: Bitrix\Main\Loader::autoLoad(string)
+	/home/c/cj66659/public_html/bitrix/modules/crm/classes/general/restservice.php:497
+#2: CCrmRestService::onRestServiceBuildDescription()
+	/home/c/cj66659/public_html/bitrix/modules/main/tools.php:5253
+#3: ExecuteModuleEventEx(array)
+	/home/c/cj66659/public_html/bitrix/modules/rest/classes/general/rest_provider.php:172
+#4: CRestProvider->getDescription()
+	/home/c/cj66659/public_html/bitrix/modules/rest/classes/general/rest.php:118
+#5: CRestServer->process()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/rest.server/component.php:86
+#6: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:615
+#7: CBitrixComponent->__includeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:692
+#8: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#9: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/rest.provider/component.php:11
+#10: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:615
+#11: CBitrixComponent->__includeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:692
+#12: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#13: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/c/cj66659/public_html/bitrix/modules/rest/services/rest/index.php:26
+#14: require(string)
+	/home/c/cj66659/public_html/bitrix/services/rest/index.php:1
+#15: include_once(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#16: include_once(string)
+	/home/c/cj66659/public_html/bitrix/urlrewrite.php:2
+----------
+
+2024-12-29 19:58:13 - Host: cj66659.tw1.ru - LOW_PRIORITY_ERROR - [ErrorException] E_DEPRECATED
+Optional parameter $nav declared before required parameter $server is implicitly treated as a required parameter (0)
+/home/c/cj66659/public_html/bitrix/modules/crm/classes/general/restservice_invoice.php:172
+#0: require_once
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/loader.php:369
+#1: Bitrix\Main\Loader::autoLoad(string)
+	
+#2: class_exists(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/tools.php:5251
+#3: ExecuteModuleEventEx(array)
+	/home/c/cj66659/public_html/bitrix/modules/rest/classes/general/rest_provider.php:172
+#4: CRestProvider->getDescription()
+	/home/c/cj66659/public_html/bitrix/modules/rest/classes/general/rest.php:118
+#5: CRestServer->process()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/rest.server/component.php:86
+#6: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:615
+#7: CBitrixComponent->__includeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:692
+#8: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#9: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/rest.provider/component.php:11
+#10: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:615
+#11: CBitrixComponent->__includeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:692
+#12: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#13: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/c/cj66659/public_html/bitrix/modules/rest/services/rest/index.php:26
+#14: require(string)
+	/home/c/cj66659/public_html/bitrix/services/rest/index.php:1
+#15: include_once(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#16: include_once(string)
+	/home/c/cj66659/public_html/bitrix/urlrewrite.php:2
+----------
+
+2024-12-29 19:58:13 - Host: cj66659.tw1.ru - LOW_PRIORITY_ERROR - [ErrorException] E_DEPRECATED
+Optional parameter $nav declared before required parameter $server is implicitly treated as a required parameter (0)
+/home/c/cj66659/public_html/bitrix/modules/crm/lib/webform/rest.php:88
+#0: require_once
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/loader.php:433
+#1: Bitrix\Main\Loader::autoLoad(string)
+	
+#2: class_exists(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/tools.php:5251
+#3: ExecuteModuleEventEx(array)
+	/home/c/cj66659/public_html/bitrix/modules/rest/classes/general/rest_provider.php:172
+#4: CRestProvider->getDescription()
+	/home/c/cj66659/public_html/bitrix/modules/rest/classes/general/rest.php:118
+#5: CRestServer->process()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/rest.server/component.php:86
+#6: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:615
+#7: CBitrixComponent->__includeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:692
+#8: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#9: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/rest.provider/component.php:11
+#10: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:615
+#11: CBitrixComponent->__includeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:692
+#12: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#13: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/c/cj66659/public_html/bitrix/modules/rest/services/rest/index.php:26
+#14: require(string)
+	/home/c/cj66659/public_html/bitrix/services/rest/index.php:1
+#15: include_once(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#16: include_once(string)
+	/home/c/cj66659/public_html/bitrix/urlrewrite.php:2
+----------
+
+2024-12-29 19:58:13 - Host: cj66659.tw1.ru - LOW_PRIORITY_ERROR - [ErrorException] E_DEPRECATED
+Optional parameter $offset declared before required parameter $server is implicitly treated as a required parameter (0)
+/home/c/cj66659/public_html/bitrix/modules/imbot/lib/restservice.php:107
+#0: require_once
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/loader.php:433
+#1: Bitrix\Main\Loader::autoLoad(string)
+	
+#2: class_exists(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/tools.php:5251
+#3: ExecuteModuleEventEx(array)
+	/home/c/cj66659/public_html/bitrix/modules/rest/classes/general/rest_provider.php:172
+#4: CRestProvider->getDescription()
+	/home/c/cj66659/public_html/bitrix/modules/rest/classes/general/rest.php:118
+#5: CRestServer->process()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/rest.server/component.php:86
+#6: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:615
+#7: CBitrixComponent->__includeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:692
+#8: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#9: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/rest.provider/component.php:11
+#10: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:615
+#11: CBitrixComponent->__includeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:692
+#12: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#13: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/c/cj66659/public_html/bitrix/modules/rest/services/rest/index.php:26
+#14: require(string)
+	/home/c/cj66659/public_html/bitrix/services/rest/index.php:1
+#15: include_once(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#16: include_once(string)
+	/home/c/cj66659/public_html/bitrix/urlrewrite.php:2
+----------
+
+2024-12-29 19:58:13 - Host: cj66659.tw1.ru - LOW_PRIORITY_ERROR - [ErrorException] E_DEPRECATED
+Optional parameter $offset declared before required parameter $server is implicitly treated as a required parameter (0)
+/home/c/cj66659/public_html/bitrix/modules/imbot/lib/restservice.php:130
+#0: require_once
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/loader.php:433
+#1: Bitrix\Main\Loader::autoLoad(string)
+	
+#2: class_exists(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/tools.php:5251
+#3: ExecuteModuleEventEx(array)
+	/home/c/cj66659/public_html/bitrix/modules/rest/classes/general/rest_provider.php:172
+#4: CRestProvider->getDescription()
+	/home/c/cj66659/public_html/bitrix/modules/rest/classes/general/rest.php:118
+#5: CRestServer->process()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/rest.server/component.php:86
+#6: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:615
+#7: CBitrixComponent->__includeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:692
+#8: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#9: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/rest.provider/component.php:11
+#10: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:615
+#11: CBitrixComponent->__includeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:692
+#12: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#13: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/c/cj66659/public_html/bitrix/modules/rest/services/rest/index.php:26
+#14: require(string)
+	/home/c/cj66659/public_html/bitrix/services/rest/index.php:1
+#15: include_once(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#16: include_once(string)
+	/home/c/cj66659/public_html/bitrix/urlrewrite.php:2
+----------
+
+2024-12-29 19:58:13 - Host: cj66659.tw1.ru - LOW_PRIORITY_ERROR - [ErrorException] E_DEPRECATED
+Optional parameter $offset declared before required parameter $server is implicitly treated as a required parameter (0)
+/home/c/cj66659/public_html/bitrix/modules/imbot/lib/restservice.php:230
+#0: require_once
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/loader.php:433
+#1: Bitrix\Main\Loader::autoLoad(string)
+	
+#2: class_exists(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/tools.php:5251
+#3: ExecuteModuleEventEx(array)
+	/home/c/cj66659/public_html/bitrix/modules/rest/classes/general/rest_provider.php:172
+#4: CRestProvider->getDescription()
+	/home/c/cj66659/public_html/bitrix/modules/rest/classes/general/rest.php:118
+#5: CRestServer->process()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/rest.server/component.php:86
+#6: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:615
+#7: CBitrixComponent->__includeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:692
+#8: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#9: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/rest.provider/component.php:11
+#10: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:615
+#11: CBitrixComponent->__includeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:692
+#12: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#13: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/c/cj66659/public_html/bitrix/modules/rest/services/rest/index.php:26
+#14: require(string)
+	/home/c/cj66659/public_html/bitrix/services/rest/index.php:1
+#15: include_once(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#16: include_once(string)
+	/home/c/cj66659/public_html/bitrix/urlrewrite.php:2
+----------
+
+2024-12-29 19:58:13 - Host: cj66659.tw1.ru - LOW_PRIORITY_ERROR - [ErrorException] E_DEPRECATED
+Optional parameter $offset declared before required parameter $server is implicitly treated as a required parameter (0)
+/home/c/cj66659/public_html/bitrix/modules/imbot/lib/restservice.php:253
+#0: require_once
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/loader.php:433
+#1: Bitrix\Main\Loader::autoLoad(string)
+	
+#2: class_exists(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/tools.php:5251
+#3: ExecuteModuleEventEx(array)
+	/home/c/cj66659/public_html/bitrix/modules/rest/classes/general/rest_provider.php:172
+#4: CRestProvider->getDescription()
+	/home/c/cj66659/public_html/bitrix/modules/rest/classes/general/rest.php:118
+#5: CRestServer->process()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/rest.server/component.php:86
+#6: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:615
+#7: CBitrixComponent->__includeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:692
+#8: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#9: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/rest.provider/component.php:11
+#10: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:615
+#11: CBitrixComponent->__includeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:692
+#12: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#13: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/c/cj66659/public_html/bitrix/modules/rest/services/rest/index.php:26
+#14: require(string)
+	/home/c/cj66659/public_html/bitrix/services/rest/index.php:1
+#15: include_once(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#16: include_once(string)
+	/home/c/cj66659/public_html/bitrix/urlrewrite.php:2
+----------
+
+2024-12-29 19:58:13 - Host: cj66659.tw1.ru - LOW_PRIORITY_ERROR - [ErrorException] E_DEPRECATED
+Optional parameter $offset declared before required parameter $server is implicitly treated as a required parameter (0)
+/home/c/cj66659/public_html/bitrix/modules/imopenlines/lib/rest.php:1594
+#0: require_once
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/loader.php:433
+#1: Bitrix\Main\Loader::autoLoad(string)
+	
+#2: class_exists(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/tools.php:5251
+#3: ExecuteModuleEventEx(array)
+	/home/c/cj66659/public_html/bitrix/modules/rest/classes/general/rest_provider.php:172
+#4: CRestProvider->getDescription()
+	/home/c/cj66659/public_html/bitrix/modules/rest/classes/general/rest.php:118
+#5: CRestServer->process()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/rest.server/component.php:86
+#6: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:615
+#7: CBitrixComponent->__includeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:692
+#8: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#9: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/rest.provider/component.php:11
+#10: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:615
+#11: CBitrixComponent->__includeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:692
+#12: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#13: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/c/cj66659/public_html/bitrix/modules/rest/services/rest/index.php:26
+#14: require(string)
+	/home/c/cj66659/public_html/bitrix/services/rest/index.php:1
+#15: include_once(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#16: include_once(string)
+	/home/c/cj66659/public_html/bitrix/urlrewrite.php:2
+----------
+
+2024-12-29 19:58:13 - Host: cj66659.tw1.ru - LOW_PRIORITY_ERROR - [ErrorException] E_DEPRECATED
+Optional parameter $params declared before required parameter $server is implicitly treated as a required parameter (0)
+/home/c/cj66659/public_html/bitrix/modules/mobile/lib/rest/intranet.php:30
+#0: require_once
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/loader.php:433
+#1: Bitrix\Main\Loader::autoLoad(string)
+	
+#2: call_user_func(array)
+	/home/c/cj66659/public_html/bitrix/modules/mobile/lib/rest.php:27
+#3: Bitrix\Mobile\Rest::Bitrix\Mobile\{closure}(string, integer)
+	
+#4: array_walk(array, object)
+	/home/c/cj66659/public_html/bitrix/modules/mobile/lib/rest.php:32
+#5: Bitrix\Mobile\Rest::onRestServiceBuildDescription()
+	/home/c/cj66659/public_html/bitrix/modules/main/tools.php:5253
+#6: ExecuteModuleEventEx(array)
+	/home/c/cj66659/public_html/bitrix/modules/rest/classes/general/rest_provider.php:172
+#7: CRestProvider->getDescription()
+	/home/c/cj66659/public_html/bitrix/modules/rest/classes/general/rest.php:118
+#8: CRestServer->process()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/rest.server/component.php:86
+#9: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:615
+#10: CBitrixComponent->__includeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:692
+#11: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#12: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/rest.provider/component.php:11
+#13: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:615
+#14: CBitrixComponent->__includeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:692
+#15: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#16: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/c/cj66659/public_html/bitrix/modules/rest/services/rest/index.php:26
+#17: require(string)
+	/home/c/cj66659/public_html/bitrix/services/rest/index.php:1
+#18: include_once(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#19: include_once(string)
+	/home/c/cj66659/public_html/bitrix/urlrewrite.php:2
+----------
+
+2024-12-29 19:58:13 - Host: cj66659.tw1.ru - LOW_PRIORITY_ERROR - [ErrorException] E_DEPRECATED
+Optional parameter $nav declared before required parameter $server is implicitly treated as a required parameter (0)
+/home/c/cj66659/public_html/bitrix/modules/rest/lib/api/user.php:514
+#0: require_once
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/loader.php:433
+#1: Bitrix\Main\Loader::autoLoad(string)
+	
+#2: class_exists(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/tools.php:5251
+#3: ExecuteModuleEventEx(array)
+	/home/c/cj66659/public_html/bitrix/modules/rest/classes/general/rest_provider.php:172
+#4: CRestProvider->getDescription()
+	/home/c/cj66659/public_html/bitrix/modules/rest/classes/general/rest.php:118
+#5: CRestServer->process()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/rest.server/component.php:86
+#6: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:615
+#7: CBitrixComponent->__includeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:692
+#8: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#9: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/rest.provider/component.php:11
+#10: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:615
+#11: CBitrixComponent->__includeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:692
+#12: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#13: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/c/cj66659/public_html/bitrix/modules/rest/services/rest/index.php:26
+#14: require(string)
+	/home/c/cj66659/public_html/bitrix/services/rest/index.php:1
+#15: include_once(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#16: include_once(string)
+	/home/c/cj66659/public_html/bitrix/urlrewrite.php:2
+----------
+
+2024-12-29 19:58:13 - Host: cj66659.tw1.ru - LOW_PRIORITY_ERROR - [ErrorException] E_DEPRECATED
+Implicit conversion from float 1735491493.433038 to int loses precision (0)
+/home/c/cj66659/public_html/bitrix/modules/rest/classes/general/rest.php:781
+#0: date(string, double)
+	/home/c/cj66659/public_html/bitrix/modules/rest/classes/general/rest.php:781
+#1: CRestServer->appendDebugInfo(array)
+	/home/c/cj66659/public_html/bitrix/modules/rest/classes/general/rest.php:309
+#2: CRestServer->processCall()
+	/home/c/cj66659/public_html/bitrix/modules/rest/classes/general/rest.php:138
+#3: CRestServer->process()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/rest.server/component.php:86
+#4: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:615
+#5: CBitrixComponent->__includeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:692
+#6: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#7: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/rest.provider/component.php:11
+#8: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:615
+#9: CBitrixComponent->__includeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:692
+#10: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#11: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/c/cj66659/public_html/bitrix/modules/rest/services/rest/index.php:26
+#12: require(string)
+	/home/c/cj66659/public_html/bitrix/services/rest/index.php:1
+#13: include_once(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#14: include_once(string)
+	/home/c/cj66659/public_html/bitrix/urlrewrite.php:2
+----------
+
+2024-12-29 19:58:13 - Host: cj66659.tw1.ru - LOW_PRIORITY_ERROR - [ErrorException] E_DEPRECATED
+Implicit conversion from float 1735491493.719907 to int loses precision (0)
+/home/c/cj66659/public_html/bitrix/modules/rest/classes/general/rest.php:782
+#0: date(string, double)
+	/home/c/cj66659/public_html/bitrix/modules/rest/classes/general/rest.php:782
+#1: CRestServer->appendDebugInfo(array)
+	/home/c/cj66659/public_html/bitrix/modules/rest/classes/general/rest.php:309
+#2: CRestServer->processCall()
+	/home/c/cj66659/public_html/bitrix/modules/rest/classes/general/rest.php:138
+#3: CRestServer->process()
+	/home/c/cj66659/public_html/bitrix/components/bitrix/rest.server/component.php:86
+#4: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:615
+#5: CBitrixComponent->__includeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:692
+#6: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#7: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/cj66659/public_html/bitrix/components/bitrix/rest.provider/component.php:11
+#8: include(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:615
+#9: CBitrixComponent->__includeComponent()
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/component.php:692
+#10: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/c/cj66659/public_html/bitrix/modules/main/classes/general/main.php:1188
+#11: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/c/cj66659/public_html/bitrix/modules/rest/services/rest/index.php:26
+#12: require(string)
+	/home/c/cj66659/public_html/bitrix/services/rest/index.php:1
+#13: include_once(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#14: include_once(string)
+	/home/c/cj66659/public_html/bitrix/urlrewrite.php:2
+----------
+
+2024-12-29 19:58:13 - Host: cj66659.tw1.ru - LOW_PRIORITY_ERROR - [ErrorException] E_DEPRECATED
+Return type of Bitrix\UI\EntitySelector\Dialog::jsonSerialize() should either be compatible with JsonSerializable::jsonSerialize(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (0)
+/home/c/cj66659/public_html/bitrix/modules/ui/lib/entityselector/dialog.php:725
+#0: require_once(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/loader.php:433
+#1: Bitrix\Main\Loader::autoLoad(string)
+	/home/c/cj66659/public_html/bitrix/modules/ui/lib/controller/entityselector.php:29
+#2: Bitrix\UI\Controller\EntitySelector->loadAction(object)
+	
+#3: ReflectionMethod->invokeArgs(object, array)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/engine/autowire/binder.php:207
+#4: Bitrix\Main\Engine\AutoWire\Binder->invoke()
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/engine/action.php:117
+#5: Bitrix\Main\Engine\Action->runWithSourceParametersList()
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/engine/controller.php:425
+#6: Bitrix\Main\Engine\Controller->run(string, array)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/httpapplication.php:141
+#7: Bitrix\Main\HttpApplication->runController(object, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/httpapplication.php:108
+#8: Bitrix\Main\HttpApplication->run()
+	/home/c/cj66659/public_html/bitrix/modules/main/services/ajax.php:29
+#9: require(string)
+	/home/c/cj66659/public_html/bitrix/services/main/ajax.php:1
+----------
+
+2024-12-29 19:58:13 - Host: cj66659.tw1.ru - LOW_PRIORITY_ERROR - [ErrorException] E_DEPRECATED
+Return type of Bitrix\UI\EntitySelector\ItemCollection::jsonSerialize() should either be compatible with JsonSerializable::jsonSerialize(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (0)
+/home/c/cj66659/public_html/bitrix/modules/ui/lib/entityselector/itemcollection.php:71
+#0: require_once(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/loader.php:433
+#1: Bitrix\Main\Loader::autoLoad(string)
+	/home/c/cj66659/public_html/bitrix/modules/ui/lib/entityselector/dialog.php:86
+#2: Bitrix\UI\EntitySelector\Dialog->__construct(array)
+	/home/c/cj66659/public_html/bitrix/modules/ui/lib/controller/entityselector.php:29
+#3: Bitrix\UI\Controller\EntitySelector->loadAction(object)
+	
+#4: ReflectionMethod->invokeArgs(object, array)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/engine/autowire/binder.php:207
+#5: Bitrix\Main\Engine\AutoWire\Binder->invoke()
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/engine/action.php:117
+#6: Bitrix\Main\Engine\Action->runWithSourceParametersList()
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/engine/controller.php:425
+#7: Bitrix\Main\Engine\Controller->run(string, array)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/httpapplication.php:141
+#8: Bitrix\Main\HttpApplication->runController(object, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/httpapplication.php:108
+#9: Bitrix\Main\HttpApplication->run()
+	/home/c/cj66659/public_html/bitrix/modules/main/services/ajax.php:29
+#10: require(string)
+	/home/c/cj66659/public_html/bitrix/services/main/ajax.php:1
+----------
+
+2024-12-29 19:58:13 - Host: cj66659.tw1.ru - LOW_PRIORITY_ERROR - [ErrorException] E_DEPRECATED
+Return type of Bitrix\UI\EntitySelector\RecentCollection::jsonSerialize() should either be compatible with JsonSerializable::jsonSerialize(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (0)
+/home/c/cj66659/public_html/bitrix/modules/ui/lib/entityselector/recentcollection.php:60
+#0: require_once(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/loader.php:433
+#1: Bitrix\Main\Loader::autoLoad(string)
+	/home/c/cj66659/public_html/bitrix/modules/ui/lib/entityselector/dialog.php:87
+#2: Bitrix\UI\EntitySelector\Dialog->__construct(array)
+	/home/c/cj66659/public_html/bitrix/modules/ui/lib/controller/entityselector.php:29
+#3: Bitrix\UI\Controller\EntitySelector->loadAction(object)
+	
+#4: ReflectionMethod->invokeArgs(object, array)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/engine/autowire/binder.php:207
+#5: Bitrix\Main\Engine\AutoWire\Binder->invoke()
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/engine/action.php:117
+#6: Bitrix\Main\Engine\Action->runWithSourceParametersList()
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/engine/controller.php:425
+#7: Bitrix\Main\Engine\Controller->run(string, array)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/httpapplication.php:141
+#8: Bitrix\Main\HttpApplication->runController(object, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/httpapplication.php:108
+#9: Bitrix\Main\HttpApplication->run()
+	/home/c/cj66659/public_html/bitrix/modules/main/services/ajax.php:29
+#10: require(string)
+	/home/c/cj66659/public_html/bitrix/services/main/ajax.php:1
+----------
+
+2024-12-29 19:58:13 - Host: cj66659.tw1.ru - LOW_PRIORITY_ERROR - [ErrorException] E_DEPRECATED
+Return type of Bitrix\UI\EntitySelector\PreselectedCollection::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (0)
+/home/c/cj66659/public_html/bitrix/modules/ui/lib/entityselector/preselectedcollection.php:104
+#0: require_once(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/loader.php:433
+#1: Bitrix\Main\Loader::autoLoad(string)
+	/home/c/cj66659/public_html/bitrix/modules/ui/lib/entityselector/dialog.php:89
+#2: Bitrix\UI\EntitySelector\Dialog->__construct(array)
+	/home/c/cj66659/public_html/bitrix/modules/ui/lib/controller/entityselector.php:29
+#3: Bitrix\UI\Controller\EntitySelector->loadAction(object)
+	
+#4: ReflectionMethod->invokeArgs(object, array)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/engine/autowire/binder.php:207
+#5: Bitrix\Main\Engine\AutoWire\Binder->invoke()
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/engine/action.php:117
+#6: Bitrix\Main\Engine\Action->runWithSourceParametersList()
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/engine/controller.php:425
+#7: Bitrix\Main\Engine\Controller->run(string, array)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/httpapplication.php:141
+#8: Bitrix\Main\HttpApplication->runController(object, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/httpapplication.php:108
+#9: Bitrix\Main\HttpApplication->run()
+	/home/c/cj66659/public_html/bitrix/modules/main/services/ajax.php:29
+#10: require(string)
+	/home/c/cj66659/public_html/bitrix/services/main/ajax.php:1
+----------
+
+2024-12-29 19:58:13 - Host: cj66659.tw1.ru - LOW_PRIORITY_ERROR - [ErrorException] E_DEPRECATED
+Return type of Bitrix\UI\EntitySelector\PreselectedCollection::jsonSerialize() should either be compatible with JsonSerializable::jsonSerialize(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (0)
+/home/c/cj66659/public_html/bitrix/modules/ui/lib/entityselector/preselectedcollection.php:99
+#0: require_once(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/loader.php:433
+#1: Bitrix\Main\Loader::autoLoad(string)
+	/home/c/cj66659/public_html/bitrix/modules/ui/lib/entityselector/dialog.php:89
+#2: Bitrix\UI\EntitySelector\Dialog->__construct(array)
+	/home/c/cj66659/public_html/bitrix/modules/ui/lib/controller/entityselector.php:29
+#3: Bitrix\UI\Controller\EntitySelector->loadAction(object)
+	
+#4: ReflectionMethod->invokeArgs(object, array)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/engine/autowire/binder.php:207
+#5: Bitrix\Main\Engine\AutoWire\Binder->invoke()
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/engine/action.php:117
+#6: Bitrix\Main\Engine\Action->runWithSourceParametersList()
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/engine/controller.php:425
+#7: Bitrix\Main\Engine\Controller->run(string, array)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/httpapplication.php:141
+#8: Bitrix\Main\HttpApplication->runController(object, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/httpapplication.php:108
+#9: Bitrix\Main\HttpApplication->run()
+	/home/c/cj66659/public_html/bitrix/modules/main/services/ajax.php:29
+#10: require(string)
+	/home/c/cj66659/public_html/bitrix/services/main/ajax.php:1
+----------
+
+2024-12-29 19:58:13 - Host: cj66659.tw1.ru - LOW_PRIORITY_ERROR - [ErrorException] E_DEPRECATED
+Return type of Bitrix\UI\EntitySelector\PreselectedItem::jsonSerialize() should either be compatible with JsonSerializable::jsonSerialize(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (0)
+/home/c/cj66659/public_html/bitrix/modules/ui/lib/entityselector/preselecteditem.php:51
+#0: require_once(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/loader.php:433
+#1: Bitrix\Main\Loader::autoLoad(string)
+	/home/c/cj66659/public_html/bitrix/modules/ui/lib/entityselector/preselectedcollection.php:44
+#2: Bitrix\UI\EntitySelector\PreselectedCollection->load(array)
+	/home/c/cj66659/public_html/bitrix/modules/ui/lib/entityselector/dialog.php:388
+#3: Bitrix\UI\EntitySelector\Dialog->setPreselectedItems(array)
+	/home/c/cj66659/public_html/bitrix/modules/ui/lib/entityselector/dialog.php:93
+#4: Bitrix\UI\EntitySelector\Dialog->__construct(array)
+	/home/c/cj66659/public_html/bitrix/modules/ui/lib/controller/entityselector.php:29
+#5: Bitrix\UI\Controller\EntitySelector->loadAction(object)
+	
+#6: ReflectionMethod->invokeArgs(object, array)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/engine/autowire/binder.php:207
+#7: Bitrix\Main\Engine\AutoWire\Binder->invoke()
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/engine/action.php:117
+#8: Bitrix\Main\Engine\Action->runWithSourceParametersList()
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/engine/controller.php:425
+#9: Bitrix\Main\Engine\Controller->run(string, array)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/httpapplication.php:141
+#10: Bitrix\Main\HttpApplication->runController(object, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/httpapplication.php:108
+#11: Bitrix\Main\HttpApplication->run()
+	/home/c/cj66659/public_html/bitrix/modules/main/services/ajax.php:29
+#12: require(string)
+	/home/c/cj66659/public_html/bitrix/services/main/ajax.php:1
+----------
+
+2024-12-29 19:58:13 - Host: cj66659.tw1.ru - LOW_PRIORITY_ERROR - [ErrorException] E_DEPRECATED
+Return type of Bitrix\UI\EntitySelector\Item::jsonSerialize() should either be compatible with JsonSerializable::jsonSerialize(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (0)
+/home/c/cj66659/public_html/bitrix/modules/ui/lib/entityselector/item.php:686
+#0: require_once(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/loader.php:433
+#1: Bitrix\Main\Loader::autoLoad(string)
+	/home/c/cj66659/public_html/bitrix/modules/socialnetwork/lib/integration/ui/entityselector/metauserprovider.php:156
+#2: Bitrix\Socialnetwork\Integration\UI\EntitySelector\MetaUserProvider::getMetaUserItem(string, array)
+	/home/c/cj66659/public_html/bitrix/modules/socialnetwork/lib/integration/ui/entityselector/metauserprovider.php:118
+#3: Bitrix\Socialnetwork\Integration\UI\EntitySelector\MetaUserProvider::getMetaUsers(array, array)
+	/home/c/cj66659/public_html/bitrix/modules/socialnetwork/lib/integration/ui/entityselector/metauserprovider.php:64
+#4: Bitrix\Socialnetwork\Integration\UI\EntitySelector\MetaUserProvider->fillDialog(object)
+	/home/c/cj66659/public_html/bitrix/modules/ui/lib/entityselector/dialog.php:319
+#5: Bitrix\UI\EntitySelector\Dialog->load()
+	/home/c/cj66659/public_html/bitrix/modules/ui/lib/controller/entityselector.php:30
+#6: Bitrix\UI\Controller\EntitySelector->loadAction(object)
+	
+#7: ReflectionMethod->invokeArgs(object, array)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/engine/autowire/binder.php:207
+#8: Bitrix\Main\Engine\AutoWire\Binder->invoke()
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/engine/action.php:117
+#9: Bitrix\Main\Engine\Action->runWithSourceParametersList()
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/engine/controller.php:425
+#10: Bitrix\Main\Engine\Controller->run(string, array)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/httpapplication.php:141
+#11: Bitrix\Main\HttpApplication->runController(object, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/httpapplication.php:108
+#12: Bitrix\Main\HttpApplication->run()
+	/home/c/cj66659/public_html/bitrix/modules/main/services/ajax.php:29
+#13: require(string)
+	/home/c/cj66659/public_html/bitrix/services/main/ajax.php:1
+----------
+
+2024-12-29 19:58:13 - Host: cj66659.tw1.ru - LOW_PRIORITY_ERROR - [ErrorException] E_DEPRECATED
+Return type of Bitrix\UI\EntitySelector\TextNode::jsonSerialize() should either be compatible with JsonSerializable::jsonSerialize(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (0)
+/home/c/cj66659/public_html/bitrix/modules/ui/lib/entityselector/textnode.php:49
+#0: require_once(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/loader.php:433
+#1: Bitrix\Main\Loader::autoLoad(string)
+	/home/c/cj66659/public_html/bitrix/modules/ui/lib/entityselector/item.php:217
+#2: Bitrix\UI\EntitySelector\Item->setTitle(string)
+	/home/c/cj66659/public_html/bitrix/modules/ui/lib/entityselector/item.php:82
+#3: Bitrix\UI\EntitySelector\Item->__construct(array)
+	/home/c/cj66659/public_html/bitrix/modules/socialnetwork/lib/integration/ui/entityselector/metauserprovider.php:165
+#4: Bitrix\Socialnetwork\Integration\UI\EntitySelector\MetaUserProvider::getMetaUserItem(string, array)
+	/home/c/cj66659/public_html/bitrix/modules/socialnetwork/lib/integration/ui/entityselector/metauserprovider.php:118
+#5: Bitrix\Socialnetwork\Integration\UI\EntitySelector\MetaUserProvider::getMetaUsers(array, array)
+	/home/c/cj66659/public_html/bitrix/modules/socialnetwork/lib/integration/ui/entityselector/metauserprovider.php:64
+#6: Bitrix\Socialnetwork\Integration\UI\EntitySelector\MetaUserProvider->fillDialog(object)
+	/home/c/cj66659/public_html/bitrix/modules/ui/lib/entityselector/dialog.php:319
+#7: Bitrix\UI\EntitySelector\Dialog->load()
+	/home/c/cj66659/public_html/bitrix/modules/ui/lib/controller/entityselector.php:30
+#8: Bitrix\UI\Controller\EntitySelector->loadAction(object)
+	
+#9: ReflectionMethod->invokeArgs(object, array)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/engine/autowire/binder.php:207
+#10: Bitrix\Main\Engine\AutoWire\Binder->invoke()
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/engine/action.php:117
+#11: Bitrix\Main\Engine\Action->runWithSourceParametersList()
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/engine/controller.php:425
+#12: Bitrix\Main\Engine\Controller->run(string, array)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/httpapplication.php:141
+#13: Bitrix\Main\HttpApplication->runController(object, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/httpapplication.php:108
+#14: Bitrix\Main\HttpApplication->run()
+	/home/c/cj66659/public_html/bitrix/modules/main/services/ajax.php:29
+#15: require(string)
+	/home/c/cj66659/public_html/bitrix/services/main/ajax.php:1
+----------
+
+2024-12-29 19:58:13 - Host: cj66659.tw1.ru - LOW_PRIORITY_ERROR - [ErrorException] E_DEPRECATED
+Return type of Bitrix\UI\EntitySelector\RecentItem::jsonSerialize() should either be compatible with JsonSerializable::jsonSerialize(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (0)
+/home/c/cj66659/public_html/bitrix/modules/ui/lib/entityselector/recentitem.php:90
+#0: require_once(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/loader.php:433
+#1: Bitrix\Main\Loader::autoLoad(string)
+	/home/c/cj66659/public_html/bitrix/modules/ui/lib/entityselector/dialog.php:147
+#2: Bitrix\UI\EntitySelector\Dialog->addRecentItem(object)
+	/home/c/cj66659/public_html/bitrix/modules/socialnetwork/lib/integration/ui/entityselector/metauserprovider.php:66
+#3: Bitrix\Socialnetwork\Integration\UI\EntitySelector\MetaUserProvider->fillDialog(object)
+	/home/c/cj66659/public_html/bitrix/modules/ui/lib/entityselector/dialog.php:319
+#4: Bitrix\UI\EntitySelector\Dialog->load()
+	/home/c/cj66659/public_html/bitrix/modules/ui/lib/controller/entityselector.php:30
+#5: Bitrix\UI\Controller\EntitySelector->loadAction(object)
+	
+#6: ReflectionMethod->invokeArgs(object, array)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/engine/autowire/binder.php:207
+#7: Bitrix\Main\Engine\AutoWire\Binder->invoke()
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/engine/action.php:117
+#8: Bitrix\Main\Engine\Action->runWithSourceParametersList()
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/engine/controller.php:425
+#9: Bitrix\Main\Engine\Controller->run(string, array)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/httpapplication.php:141
+#10: Bitrix\Main\HttpApplication->runController(object, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/httpapplication.php:108
+#11: Bitrix\Main\HttpApplication->run()
+	/home/c/cj66659/public_html/bitrix/modules/main/services/ajax.php:29
+#12: require(string)
+	/home/c/cj66659/public_html/bitrix/services/main/ajax.php:1
+----------
+
+2024-12-29 19:58:13 - Host: cj66659.tw1.ru - LOW_PRIORITY_ERROR - [ErrorException] E_DEPRECATED
+Return type of Bitrix\UI\EntitySelector\Tab::jsonSerialize() should either be compatible with JsonSerializable::jsonSerialize(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (0)
+/home/c/cj66659/public_html/bitrix/modules/ui/lib/entityselector/tab.php:369
+#0: require_once(string)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/loader.php:433
+#1: Bitrix\Main\Loader::autoLoad(string)
+	/home/c/cj66659/public_html/bitrix/modules/socialnetwork/lib/integration/ui/entityselector/projectprovider.php:238
+#2: Bitrix\Socialnetwork\Integration\UI\EntitySelector\ProjectProvider->fillDialog(object)
+	/home/c/cj66659/public_html/bitrix/modules/ui/lib/entityselector/dialog.php:319
+#3: Bitrix\UI\EntitySelector\Dialog->load()
+	/home/c/cj66659/public_html/bitrix/modules/ui/lib/controller/entityselector.php:30
+#4: Bitrix\UI\Controller\EntitySelector->loadAction(object)
+	
+#5: ReflectionMethod->invokeArgs(object, array)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/engine/autowire/binder.php:207
+#6: Bitrix\Main\Engine\AutoWire\Binder->invoke()
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/engine/action.php:117
+#7: Bitrix\Main\Engine\Action->runWithSourceParametersList()
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/engine/controller.php:425
+#8: Bitrix\Main\Engine\Controller->run(string, array)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/httpapplication.php:141
+#9: Bitrix\Main\HttpApplication->runController(object, string)
+	/home/c/cj66659/public_html/bitrix/modules/main/lib/httpapplication.php:108
+#10: Bitrix\Main\HttpApplication->run()
+	/home/c/cj66659/public_html/bitrix/modules/main/services/ajax.php:29
+#11: require(string)
+	/home/c/cj66659/public_html/bitrix/services/main/ajax.php:1
+----------
+
