@@ -14,8 +14,19 @@ $fileHandle = fopen($logFile, 'a') or die("Не удалось открыть ф
 // Записываем строку в файл
 fwrite($fileHandle, $logEntry);
 
+$lines = explode("\n", $message);
+
+foreach ($lines as &$line) {
+    $line = 'OTUS - ' . $line;
+}
 // Закрываем файл
 fclose($fileHandle);
 
+<<<<<<< HEAD
 echo "Запись в лог выполнена.";
 ?>
+=======
+// Возвращаем ответ клиенту
+header('Content-Type: text/plain');
+echo "Текущая дата и время успешно записаны в файл $fileName.";
+>>>>>>> 9c0b1901a7781eacc7be756d8594837bc14e0082
