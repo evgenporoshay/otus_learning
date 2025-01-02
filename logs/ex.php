@@ -5,3 +5,4 @@ try {
 } catch (Exception $e) {
     echo "Исключение поймано: " . $e->getMessage();
 }
+
