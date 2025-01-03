@@ -26,8 +26,6 @@ return array(
             'assertion_throws_exception' => true,
             'assertion_error_type' => 256,
             'log' => array (
-                'class_name' => '\classes\Diagnostic\OtusFileExceptionHandlerLog',
-                'required_file' => 'local/php_interface/classes/Diagnostic/OtusFileExceprionHandlerLog.php',
                 'settings' => array (
                     'file' => 'logs/'.date('Y-m-d'). '.log',
                     'log_size' => 1000000,
