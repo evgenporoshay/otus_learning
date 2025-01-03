@@ -19,15 +19,15 @@ return array(
         ),
     'exception_handling' => array (
         'value' => array (
-            'debug' => true,
-            'handled_errors_types' => 4437,
-            'exception_errors_types' => 4437,
+            'debug' => false,
+            'handled_errors_types' => E_ALL & ~E_NOTICE & ~E_STRICT & ~E_USER_NOTICE,
+            'exception_errors_types' => E_ALL & ~E_NOTICE & ~E_WARNING & ~E_STRICT & ~E_USER_WARNING & ~E_USER_NOTICE & ~E_COMPILE_WARNING & ~E_DEPRECATED,
             'ignore_silence' => false,
             'assertion_throws_exception' => true,
             'assertion_error_type' => 256,
             'log' => array (
-                'class_name' => '\classes\Diagnostic\OtusFileExceptionHandlerLog',
-                'required_file' => 'local/php_interface/classes/Diagnostic/OtusFileExceprionHandlerLog.php'
+                'class_name'=> '\classes\Diagnostic\OtusFileExceptionHandlerLog',
+                'required_file' => 'local/php_interface/classes/Diagnostic/OtusFileExceptionHandlerLog.php',
                 'settings' => array (
                     'file' => 'logs/'.date('Y-m-d'). '.log',
                     'log_size' => 1000000,
