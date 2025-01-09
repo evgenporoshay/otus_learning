@@ -16,14 +16,7 @@ while($arFields = $res->fetch()){
     pr($arFields);
 }
 
-
-$arFilter = ['IBLOCK_ID' => $iblockId];
-$arSelect = ['NAME'];
-$rsSect = CIBlockSection::GetList(['left_margin' => 'asc'], $arFilter, false, $arSelect, false);
-while ($arSect = $rsSect->fetch())
-{
-    pr($arSect);
-}
+echo $res;
 
 
 require($_SERVER['DOCUMENT_ROOT'] . '/bitrix/footer.php');
