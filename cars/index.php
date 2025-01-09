@@ -16,7 +16,7 @@ while($arFields = $res->fetch()){
     pr($arFields);
 }
 
-echo $res;
+
 
 
 require($_SERVER['DOCUMENT_ROOT'] . '/bitrix/footer.php');
